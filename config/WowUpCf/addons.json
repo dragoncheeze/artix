@@ -1,0 +1,885 @@
+{
+	"aef96521-46c4-436e-86d6-efb092b72271": {
+		"id": "aef96521-46c4-436e-86d6-efb092b72271",
+		"name": "WeakAuras",
+		"thumbnailUrl": "https://repository-images.githubusercontent.com/25056248/a4275280-2284-11eb-923f-74385a33f37f",
+		"latestVersion": "5.10.1",
+		"clientType": 1,
+		"externalId": "10",
+		"gameVersion": "3.4.3",
+		"author": "The WeakAuras Team",
+		"downloadUrl": "https://github.com/WeakAuras/WeakAuras2/releases/download/5.10.1/WeakAuras-5.10.1.zip",
+		"externalUrl": "https://wowup.io/addons/10",
+		"providerName": "WowUpHub",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-09T09:55:21.000Z",
+		"summary": "<div align=\"center\"><h1>WeakAuras</h1><p><a href=\"https://github.com/WeakAuras/WeakAuras2/actions?workflow=CI\"><img src=\"https://github.com/WeakAuras/WeakAuras2/workflows/CI/badge.svg\" alt=\"Build Status\"></a><a href=\"https://discord.gg/weakauras\"><img src=\"https://img.shields.io/badge/discord-weakauras-738bd7.svg?style=flat\" alt=\"WeakAuras on Discord\"></a> <a href=\"https://www.patreon.com/weakauras\"><img src=\"https://img.shields.io/badge/patreon-donate-orange.svg\" alt=\"Patreon\"></a></p><p><img src=\"https://i.imgur.com/wwbxeCG.jpeg\" alt=\"Logo\"></p></div><p>WeakAuras is a powerful and flexible framework that allows the display of highly customizable graphics on World of Warcraft's user interface to indicate buffs, debuffs, and other relevant information. This addon was created to be a lightweight replacement for Power Auras but has since introduced more functionalities while remaining efficient and easy to use.</p><h2>Features</h2><ul><li>An intuitive and powerful configuration interface</li><li>Custom textures including all textures from Power Auras and Blizzard's spell alerts</li><li>Progress bars and textures that show the exact duration of auras</li><li>Displays based on auras, health, power (mana, rage, soul shards, holy power, etc.), cooldowns, combat events, runes, totems, items, and many other triggers</li><li>Preset and user-defined animations</li><li>Custom side-effects such as chat announcements or sounds</li><li>Grouping, which allows multiple displays to be positioned and configured at the same time</li><li>CPU optimizations such as conditional loading/unloading of displays, modularity, and prevention of full aura scanning</li><li>Powerful customization options, such as animation paths, on-show/on-hide code, and custom triggers, for Lua-savvy users</li></ul><h2>Quick Start</h2><p>To open the options window, type <code>/wa</code> or <code>/weakauras</code> into your chat and hit enter or use the minimap icon.</p><h2>Extensions</h2><ul><li><a href=\"https://weakauras.wtf\">WeakAuras Companion</a>: This application adds the missing link between Wago.io and the World of Warcraft addon, enabling you to update your auras in a convenient fashion.</li><li><a href=\"https://www.curseforge.com/wow/addons/weakauras-stop-motion\">WeakAuras_StopMotion</a>: This addon adds a new region type to WeakAuras that allows for stop motion animations. Stop Motion textures contain each frame of the animation as a separate image. The addon ships with a number of animations and it supports custom textures.</li><li><a href=\"https://www.curseforge.com/wow/addons/sharedmedia\">SharedMedia</a> for more bar textures.</li><li><a href=\"https://www.curseforge.com/wow/addons/shared-media-additional-fonts\">SharedMediaAdditionalFonts</a> for more fonts.</li><li><a href=\"https://www.curseforge.com/wow/addons/colorpickerplus\">ColorPickerPlus</a> for a better version of the WoW color picker that includes class color templates and a copy and paste function.</li></ul><h2>Documentation</h2><p>For in-depth documentation, see the <a href=\"https://github.com/WeakAuras/WeakAuras2/wiki\">wiki</a> page.</p><h2>Examples</h2><p>For some examples of what WeakAuras can do, take a look at <a href=\"https://wago.io/\">wago.io</a> where tons of people upload their creations and even feature complete interfaces utilizing WeakAuras!</p><h2>Problems</h2><ul><li>Please see the <a href=\"https://github.com/WeakAuras/WeakAuras2/wiki\">wiki</a> page.</li><li>If you've discovered something that's clearly wrong, or if you get an error, please create a <a href=\"https://github.com/WeakAuras/WeakAuras2/issues\">ticket</a>.</li><li>You're a programmer yourself and want to contribute? Check out our <a href=\"CONTRIBUTING.md\">contributing guidelines</a> to get started!</li><li>Feel free to join our <a href=\"https://discord.gg/weakauras\">Discord Community</a> to talk, get help and discuss everything WeakAuras!</li></ul><h2>Support</h2><p>If you want to help out with development without providing code yourself, you can always donate to the WeakAuras project maintainers using PayPal or become a Patreon:</p><p><a href=\"https://paypal.me/WeakAuras\"><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" alt=\"WeakAuras on PayPal\"></a>  <a href=\"https://www.patreon.com/bePatron?u=3216523\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Become a Patreon!\"></a></p>",
+		"screenshotUrls": [],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "51582",
+		"fundingLinks": [
+			{
+				"platform": "PATREON",
+				"url": "https://undefined/addons/10/funding/patreon"
+			}
+		],
+		"latestChangelogVersion": "5.10.1",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"WeakAuras",
+			"WeakAurasArchive",
+			"WeakAurasModelPaths",
+			"WeakAurasOptions",
+			"WeakAurasTemplates"
+		],
+		"installedExternalReleaseId": "51582",
+		"installedVersion": "5.10.1",
+		"installedAt": "2024-02-14T13:08:25.676Z",
+		"installedFolders": "WeakAuras,WeakAurasArchive,WeakAurasModelPaths,WeakAurasOptions,WeakAurasTemplates",
+		"externalIds": [
+			{
+				"id": "24910",
+				"providerName": "WowInterface"
+			},
+			{
+				"id": "10",
+				"providerName": "WowUpHub"
+			}
+		]
+	},
+	"64022905-427f-4431-a7da-8b7b71c706d6": {
+		"id": "64022905-427f-4431-a7da-8b7b71c706d6",
+		"name": "Questie v9.4.1",
+		"thumbnailUrl": "https://avatars.githubusercontent.com/u/75445548?v=4",
+		"latestVersion": "9.4.1",
+		"clientType": 1,
+		"externalId": "47671",
+		"gameVersion": "3.4.3",
+		"author": "Aero/Logon/Muehe/TheCrux(BreakBB)/Drejjmit/Dyaxler/Schaka/Zoey/Everyone else",
+		"downloadUrl": "https://github.com/Questie/Questie/releases/download/v9.4.1/Questie-v9.4.1.zip",
+		"externalUrl": "https://wowup.io/addons/47671",
+		"providerName": "WowUpHub",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-13T21:34:09.000Z",
+		"summary": "<h1>Questie</h1><p><a href=\"https://discord.gg/s33MAYKeZd\"><img src=\"https://img.shields.io/badge/discord-Questie-738bd7\" alt=\"Discord\"></a><a href=\"https://img.shields.io/github/stars/Questie/Questie\"><img src=\"https://img.shields.io/github/stars/Questie/Questie\" alt=\"Stars\"></a></p><p><a href=\"https://github.com/Questie/Questie/releases/\"><img src=\"https://img.shields.io/github/downloads/Questie/Questie/total.svg\" alt=\"Downloads\"></a><a href=\"https://github.com/Questie/Questie/releases/latest\"><img src=\"https://img.shields.io/github/downloads/Questie/Questie/v9.4.1/total.svg\" alt=\"Downloads Latest\"></a><a href=\"https://github.com/Questie/Questie/releases/latest\"><img src=\"https://img.shields.io/github/release-date/Questie/Questie.svg\" alt=\"Date Latest\"></a><a href=\"https://github.com/Questie/Questie/commits/master\"><img src=\"https://img.shields.io/github/commits-since/Questie/Questie/latest.svg\" alt=\"Commits Since Latest\"></a></p><h2>Download</h2><p>We suggest you use the <a href=\"https://curseforge.overwolf.com/\">Curseforge Client</a> to manage your Wow addons in general. You will find Questie <a href=\"https://www.curseforge.com/wow/addons/questie\">here on Curseforge</a>.</p><p>Alternatively you can always use <a href=\"https://github.com/Questie/Questie/releases/latest\">the latest GitHub release</a> and follow the <a href=\"https://github.com/Questie/Questie/wiki/Installation-Guide\">Installation Guide</a> in the Wiki to get the latest version of Questie up and running.</p><p>If you have problems, please read the <a href=\"https://github.com/Questie/Questie/wiki/FAQ-for-Classic-(1.13)\">Frequently Asked Questions</a>.</p><h2>Information</h2><ul><li><a href=\"https://github.com/Questie/Questie/wiki/FAQ\">Frequently Asked Questions</a></li><li>Come chat with us on <a href=\"https://discord.gg/s33MAYKeZd\">our Discord server</a>.</li><li>You can use the <a href=\"https://github.com/Questie/Questie/issues\">issue tracker</a> to report bugs and post feature requests (requires a Github account).</li><li>When creating an issue please follow the templated structure to speed up a possible fix.</li><li>If you get an error message from the WoW client, please include the <strong>complete</strong> text or a screenshot of it in your report.<ul><li>You need to enter <code>/console scriptErrors 1</code> once in the ingame chat for Lua error messages to be shown. You can later disable them again with <code>/console scriptErrors 0</code>.</li></ul></li></ul><p>Trust us it's (Good)!</p><h2>Contribution</h2><p><a href=\"http://makeapullrequest.com\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Welcome\"></a></p><ul><li>We are happy about every help and contribution we get, so feel free to submit a Pull Request on Github</li><li>Translators can search for missing translations by: <code>[&quot;&lt;yourLanguage&gt;&quot;] = false</code> (e.g. <code>[&quot;deDE&quot;] = false</code>) and replace the <code>false</code> with a string of the new translation, e.g. <code>[&quot;&lt;yourLanguage&gt;&quot;] = &quot;YourTranslation&quot;</code>. Current translations can be found in the <a href=\"https://github.com/Questie/Questie/tree/master/Localization/Translations\">Translation folder</a></li><li>Additional information you might find interesting can be found <a href=\"https://github.com/Questie/Questie/wiki/Contributing\">here</a></li></ul><h2>Donation</h2><p>If you'd like to support the development of Questie by donating, you can do so via PayPal:</p><p><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=aero1861%40gmail%2ecom&lc=CA&item_name=Questie%20Devs&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted'><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif\"/></a></p><h2>Features</h2><h3>Show quests on map</h3><ul><li>Show notes for quest start points, turn in points, and objectives.</li></ul><p><img src=\"https://i.imgur.com/4abi5yu.png\" alt=\"Questie Quest Givers\"><img src=\"https://i.imgur.com/DgvBHyh.png\" alt=\"Questie Complete\"><img src=\"https://i.imgur.com/uPykHKC.png\" alt=\"Questie Tooltip\"></p><h3>Quest Tracker</h3><ul><li>Improved quest tracker:<ul><li>Automatically tracks quests on accepting (instead of progressing)</li><li>Can show all 20 quests from the log (instead of default 5)</li><li>Left click quest to open quest log (configurable)</li><li>Right-click for more options, e.g.:<ul><li>Focus quest (makes other quest icons translucent)</li><li>Point arrow towards objective (requires TomTom addon)</li></ul></li></ul></li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285596-24dbab00-f4d8-11e9-9ae1-7dd6206b5e48.png\" alt=\"QuestieTracker\"></p><h3>Quest Communication</h3><ul><li>You can see party members quest progress on the tooltip.</li><li>At least Questie version 5.0.0 is required by everyone in the party for it to work, tell your friends to update!</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/263036731165638656/636099163460861962/unknown.png\" alt=\"QuestieComms\"></p><h3>Tooltips</h3><ul><li>Show tooltips on map notes and quest NPCs/objects.</li><li>Holding Shift while hovering over a map icon displays more information, like quest XP.</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/579999220170227716/635540231306608641/unknown.png\" alt=\"QuestXP\"></p><h4>Quest Information</h4><p><img src=\"https://cdn.discordapp.com/attachments/579999220170227716/634656829619699712/unknown.png\" alt=\"TooltipDungeon\"></p><ul><li>Event quests are shown when events are active!</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/263040777658171392/636159292336242688/unknown.png\" alt=\"Event\"></p><h4>Waypoints</h4><ul><li>Waypoint lines for quest givers showing their pathing.</li></ul><p><img src=\"https://media.discordapp.net/attachments/263040777658171392/643203302993035294/unknown.png\" alt=\"Waypoints\"></p><h3>Journey Log</h3><ul><li>Questie records the steps of your journey in the &quot;My Journey&quot; window. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285651-3cb32f00-f4d8-11e9-95d8-e8ceb2a8d871.png\" alt=\"Journey\"></p><h3>Quests by Zone</h3><ul><li>Questie lists all the quests of a zone divided between completed and available quest. Gotta complete 'em all. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285665-450b6a00-f4d8-11e9-9283-325d26c7c70d.png\" alt=\"QuestsByZone\"></p><h3>Search</h3><ul><li>Questie's database can be searched. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285691-4f2d6880-f4d8-11e9-8656-b3e37dce2f05.png\" alt=\"Search\"></p><h3>Configuration</h3><ul><li>Extensive configuration options. (left-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285731-61a7a200-f4d8-11e9-9026-b1eeaad0d721.png\" alt=\"config\"></p>",
+		"screenshotUrls": [],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "51626",
+		"fundingLinks": [],
+		"latestChangelogVersion": "9.4.1",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"Questie"
+		],
+		"installedExternalReleaseId": "51626",
+		"installedVersion": "9.4.1",
+		"installedAt": "2024-02-14T13:08:27.002Z",
+		"installedFolders": "Questie",
+		"externalIds": [
+			{
+				"id": "47671",
+				"providerName": "WowUpHub"
+			}
+		]
+	},
+	"abca8f96-8453-4813-b7ae-a4d6fe63aec6": {
+		"id": "abca8f96-8453-4813-b7ae-a4d6fe63aec6",
+		"name": "Leatrix Plus (Wrath of the Lich King Classic)",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/483/29/256/256/637782408109739953.png",
+		"latestVersion": "3.0.179-wrath",
+		"clientType": 1,
+		"externalId": "463863",
+		"gameVersion": "3.4.3",
+		"author": "Leatrix",
+		"downloadUrl": "https://edge.forgecdn.net/files/5107/165/Leatrix_Plus-3.0.179-wrath.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/leatrix-plus-wrath",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-14T09:54:39.233Z",
+		"summary": "Powerful and modular quality of life addon with a small resource footprint.",
+		"screenshotUrls": [],
+		"dependencies": [
+			{
+				"externalAddonId": "18909",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5107165",
+		"fundingLinks": [],
+		"latestChangelogVersion": "3.0.179-wrath",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"Leatrix_Plus"
+		],
+		"installedExternalReleaseId": "5107165",
+		"installedVersion": "3.0.179-wrath",
+		"installedAt": "2024-02-14T13:08:32.970Z",
+		"installedFolders": "Leatrix_Plus",
+		"externalIds": [
+			{
+				"id": "463863",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"88a893a2-cf6a-4a9f-8adc-cb17d254c4be": {
+		"id": "88a893a2-cf6a-4a9f-8adc-cb17d254c4be",
+		"name": "Leatrix Maps (Wrath of the Lich King Classic)",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/483/40/256/256/637782415088941889.png",
+		"latestVersion": "3.0.179-wrath",
+		"clientType": 1,
+		"externalId": "463868",
+		"gameVersion": "3.4.3",
+		"author": "Leatrix",
+		"downloadUrl": "https://edge.forgecdn.net/files/5107/166/Leatrix_Maps-3.0.179-wrath.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/leatrix-maps-wrath",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-14T09:54:40.393Z",
+		"summary": "Enhancements for your maps.",
+		"screenshotUrls": [],
+		"dependencies": [
+			{
+				"externalAddonId": "15552",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5107166",
+		"fundingLinks": [],
+		"latestChangelogVersion": "3.0.179-wrath",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"Leatrix_Maps"
+		],
+		"installedExternalReleaseId": "5107166",
+		"installedVersion": "3.0.179-wrath",
+		"installedAt": "2024-02-14T13:08:34.276Z",
+		"installedFolders": "Leatrix_Maps",
+		"externalIds": [
+			{
+				"id": "463868",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"70cbf7c2-26ef-4895-beca-cf4ef9a5a09f": {
+		"id": "70cbf7c2-26ef-4895-beca-cf4ef9a5a09f",
+		"name": "Auctionator",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/810/384/256/256/638182110684675083.png",
+		"latestVersion": "10.2.24-wrath",
+		"clientType": 1,
+		"externalId": "6124",
+		"gameVersion": "3.4.3",
+		"author": "borjamacare, plusmouse",
+		"downloadUrl": "https://edge.forgecdn.net/files/5100/2/Auctionator-10.2.24-wrath.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/auctionator",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-11T18:34:17.157Z",
+		"summary": "Makes it easier to use the auction house and track the value of items",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/721/368/2023-screenshot-classic-shopping-1.png",
+			"https://media.forgecdn.net/attachments/721/367/2023-screenshot-classic-cancelling-1.png",
+			"https://media.forgecdn.net/attachments/548/252/2022-12-screenshot-selling.png",
+			"https://media.forgecdn.net/attachments/548/332/2022-12-screenshot-tooltip.png",
+			"https://media.forgecdn.net/attachments/667/349/2023-screenshot-new-shopping-tab-3.png",
+			"https://media.forgecdn.net/attachments/721/369/2023-screenshot-classic-tooltip-1.png",
+			"https://media.forgecdn.net/attachments/548/275/2022-12-screenshot-cancelling.png",
+			"https://media.forgecdn.net/attachments/721/366/2023-screenshot-classic-selling-1.png"
+		],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5100002",
+		"fundingLinks": [],
+		"latestChangelogVersion": "10.2.24-wrath",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"Auctionator"
+		],
+		"installedExternalReleaseId": "5100002",
+		"installedVersion": "10.2.24-wrath",
+		"installedAt": "2024-02-14T13:08:42.320Z",
+		"installedFolders": "Auctionator",
+		"externalIds": [
+			{
+				"id": "6124",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"d6fc386d-0d08-4759-848e-d0d7eae9e4a4": {
+		"id": "d6fc386d-0d08-4759-848e-d0d7eae9e4a4",
+		"name": "Pawn",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/320/97/256/256/637427080899696008.jpeg",
+		"latestVersion": "2.8.9 (Wrath)",
+		"clientType": 1,
+		"externalId": "4646",
+		"gameVersion": "3.4.3",
+		"author": "TravisSpomer",
+		"downloadUrl": "https://edge.forgecdn.net/files/5081/34/Pawn-2.8.9-Wrath.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/pawn",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-04T18:23:01.640Z",
+		"summary": "Pawn helps you compare items and find upgrades.",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/102/344/Loot_upgrade_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/336/Pawn_-_AtlasLoot.png",
+			"https://media.forgecdn.net/attachments/200/60/relic-upgrades.jpg",
+			"https://media.forgecdn.net/attachments/102/337/Pawn_-_tooltips.png",
+			"https://media.forgecdn.net/attachments/102/338/Pawn_-_gems.png",
+			"https://media.forgecdn.net/attachments/102/346/Pawn_1.7_socketing_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/345/Pawn_options.jpg",
+			"https://media.forgecdn.net/attachments/102/333/Bag_arrows.jpg",
+			"https://media.forgecdn.net/attachments/102/335/Pawn_manual_mode.jpg",
+			"https://media.forgecdn.net/attachments/102/334/Pawn_auto_mode.jpg",
+			"https://media.forgecdn.net/attachments/102/341/Pawn_-_values.png",
+			"https://media.forgecdn.net/attachments/102/347/Pawn_s_Compare_tab.jpg",
+			"https://media.forgecdn.net/attachments/102/339/Pawn_-_auctions.jpg",
+			"https://media.forgecdn.net/attachments/102/343/Pawn_quest_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/332/AMR.jpg"
+		],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5081034",
+		"fundingLinks": [],
+		"latestChangelogVersion": "2.8.9 (Wrath)",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"Pawn"
+		],
+		"installedExternalReleaseId": "5081034",
+		"installedVersion": "2.8.9 (Wrath)",
+		"installedAt": "2024-02-14T13:08:46.759Z",
+		"installedFolders": "Pawn",
+		"externalIds": [
+			{
+				"id": "4646",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"6b61aaf6-ea07-4447-8481-caa20b320418": {
+		"id": "6b61aaf6-ea07-4447-8481-caa20b320418",
+		"name": "Bagnon",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/647/705/256/256/638048338012580367.png",
+		"latestVersion": "10.2.19",
+		"clientType": 1,
+		"externalId": "1592",
+		"gameVersion": "3.4.3",
+		"author": "jaliborc",
+		"downloadUrl": "https://edge.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/bagnon",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-13T20:16:51.063Z",
+		"summary": "All in one displays for your inventory, bank, guild and vault",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/222/768/watsup.jpg"
+		],
+		"dependencies": [
+			{
+				"externalAddonId": "29683",
+				"type": 1
+			},
+			{
+				"externalAddonId": "21538",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338963",
+				"type": 1
+			},
+			{
+				"externalAddonId": "359170",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338958",
+				"type": 1
+			},
+			{
+				"externalAddonId": "358535",
+				"type": 1
+			},
+			{
+				"externalAddonId": "358824",
+				"type": 1
+			},
+			{
+				"externalAddonId": "5422",
+				"type": 3
+			},
+			{
+				"externalAddonId": "339139",
+				"type": 4
+			},
+			{
+				"externalAddonId": "20283",
+				"type": 4
+			},
+			{
+				"externalAddonId": "22373",
+				"type": 1
+			},
+			{
+				"externalAddonId": "711577",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338957",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5105826",
+		"fundingLinks": [],
+		"latestChangelogVersion": "10.2.19",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"BagBrother",
+			"Bagnon",
+			"Bagnon_Config",
+			"Bagnon_GuildBank",
+			"Bagnon_VoidStorage"
+		],
+		"installedExternalReleaseId": "5105826",
+		"installedVersion": "10.2.19",
+		"installedAt": "2024-02-14T13:08:59.514Z",
+		"installedFolders": "BagBrother,Bagnon,Bagnon_Config,Bagnon_GuildBank,Bagnon_VoidStorage",
+		"externalIds": [
+			{
+				"id": "1592",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"74388fe5-985b-4145-9f8c-12de2ca33469": {
+		"id": "74388fe5-985b-4145-9f8c-12de2ca33469",
+		"name": "Simple Item Levels",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/142/24/256/256/636546082168775431.jpeg",
+		"latestVersion": "v33.3",
+		"clientType": 1,
+		"externalId": "287692",
+		"gameVersion": "3.4.3",
+		"author": "Kemayo",
+		"downloadUrl": "https://edge.forgecdn.net/files/5074/921/SimpleItemLevel-v33.3.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/simple-item-level",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-01T21:25:01.273Z",
+		"summary": "Show item levels in the character frame",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/233/52/simpleitemlevel_bag.jpg",
+			"https://media.forgecdn.net/attachments/546/764/sil_settings_base.jpg",
+			"https://media.forgecdn.net/attachments/546/763/sil_inv.jpg",
+			"https://media.forgecdn.net/attachments/546/765/sil_settings_appearance.jpg",
+			"https://media.forgecdn.net/attachments/224/630/simpleitemlevel.jpg",
+			"https://media.forgecdn.net/attachments/546/760/sil_inspect.jpg"
+		],
+		"dependencies": [
+			{
+				"externalAddonId": "14328",
+				"type": 1
+			},
+			{
+				"externalAddonId": "102010",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5074921",
+		"fundingLinks": [],
+		"latestChangelogVersion": "v33.3",
+		"installationId": "3adc097b-fab0-4bde-9cf4-fcab020a7e0f",
+		"installedFolderList": [
+			"SimpleItemLevel"
+		],
+		"installedExternalReleaseId": "5074921",
+		"installedVersion": "v33.3",
+		"installedAt": "2024-02-14T13:09:24.405Z",
+		"installedFolders": "SimpleItemLevel",
+		"externalIds": [
+			{
+				"id": "287692",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"d1f624bc-ee6a-4963-819b-c368e2b63f4f": {
+		"id": "d1f624bc-ee6a-4963-819b-c368e2b63f4f",
+		"name": "WeakAuras",
+		"thumbnailUrl": "https://repository-images.githubusercontent.com/25056248/a4275280-2284-11eb-923f-74385a33f37f",
+		"latestVersion": "5.10.1",
+		"clientType": 6,
+		"externalId": "10",
+		"gameVersion": "1.15.1",
+		"author": "The WeakAuras Team",
+		"downloadUrl": "https://github.com/WeakAuras/WeakAuras2/releases/download/5.10.1/WeakAuras-5.10.1.zip",
+		"externalUrl": "https://wowup.io/addons/10",
+		"providerName": "WowUpHub",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-09T09:55:21.000Z",
+		"summary": "<div align=\"center\"><h1>WeakAuras</h1><p><a href=\"https://github.com/WeakAuras/WeakAuras2/actions?workflow=CI\"><img src=\"https://github.com/WeakAuras/WeakAuras2/workflows/CI/badge.svg\" alt=\"Build Status\"></a><a href=\"https://discord.gg/weakauras\"><img src=\"https://img.shields.io/badge/discord-weakauras-738bd7.svg?style=flat\" alt=\"WeakAuras on Discord\"></a> <a href=\"https://www.patreon.com/weakauras\"><img src=\"https://img.shields.io/badge/patreon-donate-orange.svg\" alt=\"Patreon\"></a></p><p><img src=\"https://i.imgur.com/wwbxeCG.jpeg\" alt=\"Logo\"></p></div><p>WeakAuras is a powerful and flexible framework that allows the display of highly customizable graphics on World of Warcraft's user interface to indicate buffs, debuffs, and other relevant information. This addon was created to be a lightweight replacement for Power Auras but has since introduced more functionalities while remaining efficient and easy to use.</p><h2>Features</h2><ul><li>An intuitive and powerful configuration interface</li><li>Custom textures including all textures from Power Auras and Blizzard's spell alerts</li><li>Progress bars and textures that show the exact duration of auras</li><li>Displays based on auras, health, power (mana, rage, soul shards, holy power, etc.), cooldowns, combat events, runes, totems, items, and many other triggers</li><li>Preset and user-defined animations</li><li>Custom side-effects such as chat announcements or sounds</li><li>Grouping, which allows multiple displays to be positioned and configured at the same time</li><li>CPU optimizations such as conditional loading/unloading of displays, modularity, and prevention of full aura scanning</li><li>Powerful customization options, such as animation paths, on-show/on-hide code, and custom triggers, for Lua-savvy users</li></ul><h2>Quick Start</h2><p>To open the options window, type <code>/wa</code> or <code>/weakauras</code> into your chat and hit enter or use the minimap icon.</p><h2>Extensions</h2><ul><li><a href=\"https://weakauras.wtf\">WeakAuras Companion</a>: This application adds the missing link between Wago.io and the World of Warcraft addon, enabling you to update your auras in a convenient fashion.</li><li><a href=\"https://www.curseforge.com/wow/addons/weakauras-stop-motion\">WeakAuras_StopMotion</a>: This addon adds a new region type to WeakAuras that allows for stop motion animations. Stop Motion textures contain each frame of the animation as a separate image. The addon ships with a number of animations and it supports custom textures.</li><li><a href=\"https://www.curseforge.com/wow/addons/sharedmedia\">SharedMedia</a> for more bar textures.</li><li><a href=\"https://www.curseforge.com/wow/addons/shared-media-additional-fonts\">SharedMediaAdditionalFonts</a> for more fonts.</li><li><a href=\"https://www.curseforge.com/wow/addons/colorpickerplus\">ColorPickerPlus</a> for a better version of the WoW color picker that includes class color templates and a copy and paste function.</li></ul><h2>Documentation</h2><p>For in-depth documentation, see the <a href=\"https://github.com/WeakAuras/WeakAuras2/wiki\">wiki</a> page.</p><h2>Examples</h2><p>For some examples of what WeakAuras can do, take a look at <a href=\"https://wago.io/\">wago.io</a> where tons of people upload their creations and even feature complete interfaces utilizing WeakAuras!</p><h2>Problems</h2><ul><li>Please see the <a href=\"https://github.com/WeakAuras/WeakAuras2/wiki\">wiki</a> page.</li><li>If you've discovered something that's clearly wrong, or if you get an error, please create a <a href=\"https://github.com/WeakAuras/WeakAuras2/issues\">ticket</a>.</li><li>You're a programmer yourself and want to contribute? Check out our <a href=\"CONTRIBUTING.md\">contributing guidelines</a> to get started!</li><li>Feel free to join our <a href=\"https://discord.gg/weakauras\">Discord Community</a> to talk, get help and discuss everything WeakAuras!</li></ul><h2>Support</h2><p>If you want to help out with development without providing code yourself, you can always donate to the WeakAuras project maintainers using PayPal or become a Patreon:</p><p><a href=\"https://paypal.me/WeakAuras\"><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif\" alt=\"WeakAuras on PayPal\"></a>  <a href=\"https://www.patreon.com/bePatron?u=3216523\"><img src=\"https://c5.patreon.com/external/logo/become_a_patron_button.png\" alt=\"Become a Patreon!\"></a></p>",
+		"screenshotUrls": [],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "51582",
+		"fundingLinks": [
+			{
+				"platform": "PATREON",
+				"url": "https://undefined/addons/10/funding/patreon"
+			}
+		],
+		"latestChangelogVersion": "5.10.1",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"WeakAuras",
+			"WeakAurasArchive",
+			"WeakAurasModelPaths",
+			"WeakAurasOptions",
+			"WeakAurasTemplates"
+		],
+		"installedExternalReleaseId": "51582",
+		"installedVersion": "5.10.1",
+		"installedAt": "2024-02-14T13:09:50.612Z",
+		"installedFolders": "WeakAuras,WeakAurasArchive,WeakAurasModelPaths,WeakAurasOptions,WeakAurasTemplates",
+		"externalIds": [
+			{
+				"id": "24910",
+				"providerName": "WowInterface"
+			},
+			{
+				"id": "10",
+				"providerName": "WowUpHub"
+			}
+		]
+	},
+	"fb2f33ca-b741-4c80-8772-8a2b49f805ba": {
+		"id": "fb2f33ca-b741-4c80-8772-8a2b49f805ba",
+		"name": "Questie v9.4.1",
+		"thumbnailUrl": "https://avatars.githubusercontent.com/u/75445548?v=4",
+		"latestVersion": "9.4.1",
+		"clientType": 6,
+		"externalId": "47671",
+		"gameVersion": "1.15.1",
+		"author": "Aero/Logon/Muehe/TheCrux(BreakBB)/Drejjmit/Dyaxler/Schaka/Zoey/Everyone else",
+		"downloadUrl": "https://github.com/Questie/Questie/releases/download/v9.4.1/Questie-v9.4.1.zip",
+		"externalUrl": "https://wowup.io/addons/47671",
+		"providerName": "WowUpHub",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-13T21:34:09.000Z",
+		"summary": "<h1>Questie</h1><p><a href=\"https://discord.gg/s33MAYKeZd\"><img src=\"https://img.shields.io/badge/discord-Questie-738bd7\" alt=\"Discord\"></a><a href=\"https://img.shields.io/github/stars/Questie/Questie\"><img src=\"https://img.shields.io/github/stars/Questie/Questie\" alt=\"Stars\"></a></p><p><a href=\"https://github.com/Questie/Questie/releases/\"><img src=\"https://img.shields.io/github/downloads/Questie/Questie/total.svg\" alt=\"Downloads\"></a><a href=\"https://github.com/Questie/Questie/releases/latest\"><img src=\"https://img.shields.io/github/downloads/Questie/Questie/v9.4.1/total.svg\" alt=\"Downloads Latest\"></a><a href=\"https://github.com/Questie/Questie/releases/latest\"><img src=\"https://img.shields.io/github/release-date/Questie/Questie.svg\" alt=\"Date Latest\"></a><a href=\"https://github.com/Questie/Questie/commits/master\"><img src=\"https://img.shields.io/github/commits-since/Questie/Questie/latest.svg\" alt=\"Commits Since Latest\"></a></p><h2>Download</h2><p>We suggest you use the <a href=\"https://curseforge.overwolf.com/\">Curseforge Client</a> to manage your Wow addons in general. You will find Questie <a href=\"https://www.curseforge.com/wow/addons/questie\">here on Curseforge</a>.</p><p>Alternatively you can always use <a href=\"https://github.com/Questie/Questie/releases/latest\">the latest GitHub release</a> and follow the <a href=\"https://github.com/Questie/Questie/wiki/Installation-Guide\">Installation Guide</a> in the Wiki to get the latest version of Questie up and running.</p><p>If you have problems, please read the <a href=\"https://github.com/Questie/Questie/wiki/FAQ-for-Classic-(1.13)\">Frequently Asked Questions</a>.</p><h2>Information</h2><ul><li><a href=\"https://github.com/Questie/Questie/wiki/FAQ\">Frequently Asked Questions</a></li><li>Come chat with us on <a href=\"https://discord.gg/s33MAYKeZd\">our Discord server</a>.</li><li>You can use the <a href=\"https://github.com/Questie/Questie/issues\">issue tracker</a> to report bugs and post feature requests (requires a Github account).</li><li>When creating an issue please follow the templated structure to speed up a possible fix.</li><li>If you get an error message from the WoW client, please include the <strong>complete</strong> text or a screenshot of it in your report.<ul><li>You need to enter <code>/console scriptErrors 1</code> once in the ingame chat for Lua error messages to be shown. You can later disable them again with <code>/console scriptErrors 0</code>.</li></ul></li></ul><p>Trust us it's (Good)!</p><h2>Contribution</h2><p><a href=\"http://makeapullrequest.com\"><img src=\"https://img.shields.io/badge/PRs-welcome-brightgreen.svg\" alt=\"PRs Welcome\"></a></p><ul><li>We are happy about every help and contribution we get, so feel free to submit a Pull Request on Github</li><li>Translators can search for missing translations by: <code>[&quot;&lt;yourLanguage&gt;&quot;] = false</code> (e.g. <code>[&quot;deDE&quot;] = false</code>) and replace the <code>false</code> with a string of the new translation, e.g. <code>[&quot;&lt;yourLanguage&gt;&quot;] = &quot;YourTranslation&quot;</code>. Current translations can be found in the <a href=\"https://github.com/Questie/Questie/tree/master/Localization/Translations\">Translation folder</a></li><li>Additional information you might find interesting can be found <a href=\"https://github.com/Questie/Questie/wiki/Contributing\">here</a></li></ul><h2>Donation</h2><p>If you'd like to support the development of Questie by donating, you can do so via PayPal:</p><p><a href='https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=aero1861%40gmail%2ecom&lc=CA&item_name=Questie%20Devs&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donate_LG%2egif%3aNonHosted'><img src=\"https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif\"/></a></p><h2>Features</h2><h3>Show quests on map</h3><ul><li>Show notes for quest start points, turn in points, and objectives.</li></ul><p><img src=\"https://i.imgur.com/4abi5yu.png\" alt=\"Questie Quest Givers\"><img src=\"https://i.imgur.com/DgvBHyh.png\" alt=\"Questie Complete\"><img src=\"https://i.imgur.com/uPykHKC.png\" alt=\"Questie Tooltip\"></p><h3>Quest Tracker</h3><ul><li>Improved quest tracker:<ul><li>Automatically tracks quests on accepting (instead of progressing)</li><li>Can show all 20 quests from the log (instead of default 5)</li><li>Left click quest to open quest log (configurable)</li><li>Right-click for more options, e.g.:<ul><li>Focus quest (makes other quest icons translucent)</li><li>Point arrow towards objective (requires TomTom addon)</li></ul></li></ul></li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285596-24dbab00-f4d8-11e9-9ae1-7dd6206b5e48.png\" alt=\"QuestieTracker\"></p><h3>Quest Communication</h3><ul><li>You can see party members quest progress on the tooltip.</li><li>At least Questie version 5.0.0 is required by everyone in the party for it to work, tell your friends to update!</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/263036731165638656/636099163460861962/unknown.png\" alt=\"QuestieComms\"></p><h3>Tooltips</h3><ul><li>Show tooltips on map notes and quest NPCs/objects.</li><li>Holding Shift while hovering over a map icon displays more information, like quest XP.</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/579999220170227716/635540231306608641/unknown.png\" alt=\"QuestXP\"></p><h4>Quest Information</h4><p><img src=\"https://cdn.discordapp.com/attachments/579999220170227716/634656829619699712/unknown.png\" alt=\"TooltipDungeon\"></p><ul><li>Event quests are shown when events are active!</li></ul><p><img src=\"https://cdn.discordapp.com/attachments/263040777658171392/636159292336242688/unknown.png\" alt=\"Event\"></p><h4>Waypoints</h4><ul><li>Waypoint lines for quest givers showing their pathing.</li></ul><p><img src=\"https://media.discordapp.net/attachments/263040777658171392/643203302993035294/unknown.png\" alt=\"Waypoints\"></p><h3>Journey Log</h3><ul><li>Questie records the steps of your journey in the &quot;My Journey&quot; window. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285651-3cb32f00-f4d8-11e9-95d8-e8ceb2a8d871.png\" alt=\"Journey\"></p><h3>Quests by Zone</h3><ul><li>Questie lists all the quests of a zone divided between completed and available quest. Gotta complete 'em all. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285665-450b6a00-f4d8-11e9-9283-325d26c7c70d.png\" alt=\"QuestsByZone\"></p><h3>Search</h3><ul><li>Questie's database can be searched. (right-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285691-4f2d6880-f4d8-11e9-8656-b3e37dce2f05.png\" alt=\"Search\"></p><h3>Configuration</h3><ul><li>Extensive configuration options. (left-click on minimap button to open)</li></ul><p><img src=\"https://user-images.githubusercontent.com/8838573/67285731-61a7a200-f4d8-11e9-9026-b1eeaad0d721.png\" alt=\"config\"></p>",
+		"screenshotUrls": [],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "51626",
+		"fundingLinks": [],
+		"latestChangelogVersion": "9.4.1",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"Questie"
+		],
+		"installedExternalReleaseId": "51626",
+		"installedVersion": "9.4.1",
+		"installedAt": "2024-02-14T13:09:51.525Z",
+		"installedFolders": "Questie",
+		"externalIds": [
+			{
+				"id": "47671",
+				"providerName": "WowUpHub"
+			}
+		]
+	},
+	"22165b91-0228-4320-9287-04eb58a32be5": {
+		"id": "22165b91-0228-4320-9287-04eb58a32be5",
+		"name": "Leatrix Maps (Classic Era)",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/483/27/256/256/637782407908842645.png",
+		"latestVersion": "1.15.18-classic",
+		"clientType": 6,
+		"externalId": "324034",
+		"gameVersion": "1.15.1",
+		"author": "Leatrix",
+		"downloadUrl": "https://edge.forgecdn.net/files/5107/141/Leatrix_Maps-1.15.18-classic.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/leatrix-maps-classic",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-14T09:37:36.210Z",
+		"summary": "Enhancements for your maps.",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/262/518/snap1.jpg",
+			"https://media.forgecdn.net/attachments/262/519/ltm2.jpg"
+		],
+		"dependencies": [
+			{
+				"externalAddonId": "15552",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5107141",
+		"fundingLinks": [],
+		"latestChangelogVersion": "1.15.18-classic",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"Leatrix_Maps"
+		],
+		"installedExternalReleaseId": "5107141",
+		"installedVersion": "1.15.18-classic",
+		"installedAt": "2024-02-14T13:09:55.826Z",
+		"installedFolders": "Leatrix_Maps",
+		"externalIds": [
+			{
+				"id": "324034",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"8553e676-c7cd-4acd-a646-07012e05557c": {
+		"id": "8553e676-c7cd-4acd-a646-07012e05557c",
+		"name": "Leatrix Plus (Classic Era)",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/483/31/256/256/637782408281443545.png",
+		"latestVersion": "1.15.18-classic",
+		"clientType": 6,
+		"externalId": "322362",
+		"gameVersion": "1.15.1",
+		"author": "Leatrix",
+		"downloadUrl": "https://edge.forgecdn.net/files/5107/142/Leatrix_Plus-1.15.18-classic.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/leatrix-plus-classic",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-14T09:37:37.217Z",
+		"summary": "Powerful and modular quality of life addon with a small resource footprint.",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/316/920/leaplusyt3.jpg"
+		],
+		"dependencies": [
+			{
+				"externalAddonId": "18909",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5107142",
+		"fundingLinks": [],
+		"latestChangelogVersion": "1.15.18-classic",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"Leatrix_Plus"
+		],
+		"installedExternalReleaseId": "5107142",
+		"installedVersion": "1.15.18-classic",
+		"installedAt": "2024-02-14T13:09:56.453Z",
+		"installedFolders": "Leatrix_Plus",
+		"externalIds": [
+			{
+				"id": "322362",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"52a206e9-d8e3-4b77-ba36-745783bd5def": {
+		"id": "52a206e9-d8e3-4b77-ba36-745783bd5def",
+		"name": "Pawn",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/320/97/256/256/637427080899696008.jpeg",
+		"latestVersion": "2.8.9 (Classic)",
+		"clientType": 6,
+		"externalId": "4646",
+		"gameVersion": "1.15.0",
+		"author": "TravisSpomer",
+		"downloadUrl": "https://edge.forgecdn.net/files/5081/26/Pawn-2.8.9-Classic.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/pawn",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-04T18:22:41.543Z",
+		"summary": "Pawn helps you compare items and find upgrades.",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/102/344/Loot_upgrade_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/336/Pawn_-_AtlasLoot.png",
+			"https://media.forgecdn.net/attachments/200/60/relic-upgrades.jpg",
+			"https://media.forgecdn.net/attachments/102/337/Pawn_-_tooltips.png",
+			"https://media.forgecdn.net/attachments/102/338/Pawn_-_gems.png",
+			"https://media.forgecdn.net/attachments/102/346/Pawn_1.7_socketing_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/345/Pawn_options.jpg",
+			"https://media.forgecdn.net/attachments/102/333/Bag_arrows.jpg",
+			"https://media.forgecdn.net/attachments/102/335/Pawn_manual_mode.jpg",
+			"https://media.forgecdn.net/attachments/102/334/Pawn_auto_mode.jpg",
+			"https://media.forgecdn.net/attachments/102/341/Pawn_-_values.png",
+			"https://media.forgecdn.net/attachments/102/347/Pawn_s_Compare_tab.jpg",
+			"https://media.forgecdn.net/attachments/102/339/Pawn_-_auctions.jpg",
+			"https://media.forgecdn.net/attachments/102/343/Pawn_quest_advisor.jpg",
+			"https://media.forgecdn.net/attachments/102/332/AMR.jpg"
+		],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5081026",
+		"fundingLinks": [],
+		"latestChangelogVersion": "2.8.9 (Classic)",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"Pawn"
+		],
+		"installedExternalReleaseId": "5081026",
+		"installedVersion": "2.8.9 (Classic)",
+		"installedAt": "2024-02-14T13:10:01.123Z",
+		"installedFolders": "Pawn",
+		"externalIds": [
+			{
+				"id": "4646",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"159cf755-eed0-49d9-88b6-d93113f6c24b": {
+		"id": "159cf755-eed0-49d9-88b6-d93113f6c24b",
+		"name": "Auctionator",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/810/384/256/256/638182110684675083.png",
+		"latestVersion": "10.2.24-classic",
+		"clientType": 6,
+		"externalId": "6124",
+		"gameVersion": "1.15.1",
+		"author": "borjamacare, plusmouse",
+		"downloadUrl": "https://edge.forgecdn.net/files/5100/3/Auctionator-10.2.24-classic.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/auctionator",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-11T18:34:21.690Z",
+		"summary": "Makes it easier to use the auction house and track the value of items",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/721/368/2023-screenshot-classic-shopping-1.png",
+			"https://media.forgecdn.net/attachments/721/367/2023-screenshot-classic-cancelling-1.png",
+			"https://media.forgecdn.net/attachments/548/252/2022-12-screenshot-selling.png",
+			"https://media.forgecdn.net/attachments/548/332/2022-12-screenshot-tooltip.png",
+			"https://media.forgecdn.net/attachments/667/349/2023-screenshot-new-shopping-tab-3.png",
+			"https://media.forgecdn.net/attachments/721/369/2023-screenshot-classic-tooltip-1.png",
+			"https://media.forgecdn.net/attachments/548/275/2022-12-screenshot-cancelling.png",
+			"https://media.forgecdn.net/attachments/721/366/2023-screenshot-classic-selling-1.png"
+		],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5100003",
+		"fundingLinks": [],
+		"latestChangelogVersion": "10.2.24-classic",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"Auctionator"
+		],
+		"installedExternalReleaseId": "5100003",
+		"installedVersion": "10.2.24-classic",
+		"installedAt": "2024-02-14T13:10:06.904Z",
+		"installedFolders": "Auctionator",
+		"externalIds": [
+			{
+				"id": "6124",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"f255d1e3-6c47-4a69-b545-e7a9084a8345": {
+		"id": "f255d1e3-6c47-4a69-b545-e7a9084a8345",
+		"name": "Quest Icon Desaturation",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/217/852/256/256/637008948848294806.png",
+		"latestVersion": "3.4.1",
+		"clientType": 6,
+		"externalId": "334517",
+		"gameVersion": "1.14.4",
+		"author": "Fusionpit",
+		"downloadUrl": "https://edge.forgecdn.net/files/4720/379/QuestIconDesaturation-3.4.1.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/quest-icon-desaturation",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2023-08-24T14:40:54.280Z",
+		"summary": "Greys out ? icons for quests that aren't completed",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/259/25/quest-frame.png",
+			"https://media.forgecdn.net/attachments/259/26/qff-support.png",
+			"https://media.forgecdn.net/attachments/259/24/gossip-frame.png"
+		],
+		"dependencies": [],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "4720379",
+		"fundingLinks": [],
+		"latestChangelogVersion": "3.4.1",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"QuestIconDesaturation"
+		],
+		"installedExternalReleaseId": "4720379",
+		"installedVersion": "3.4.1",
+		"installedAt": "2024-02-14T13:10:14.095Z",
+		"installedFolders": "QuestIconDesaturation",
+		"externalIds": [
+			{
+				"id": "25083",
+				"providerName": "WowInterface"
+			},
+			{
+				"id": "334517",
+				"providerName": "Curse"
+			}
+		]
+	},
+	"5ef97e7c-a466-4dad-9785-c109ab703bda": {
+		"id": "5ef97e7c-a466-4dad-9785-c109ab703bda",
+		"name": "Bagnon",
+		"thumbnailUrl": "https://media.forgecdn.net/avatars/thumbnails/647/705/256/256/638048338012580367.png",
+		"latestVersion": "10.2.19",
+		"clientType": 6,
+		"externalId": "1592",
+		"gameVersion": "1.15.1",
+		"author": "jaliborc",
+		"downloadUrl": "https://edge.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip",
+		"externalUrl": "https://www.curseforge.com/wow/addons/bagnon",
+		"providerName": "Curse",
+		"channelType": 0,
+		"isIgnored": false,
+		"autoUpdateEnabled": false,
+		"autoUpdateNotificationsEnabled": false,
+		"releasedAt": "2024-02-13T20:16:51.063Z",
+		"summary": "All in one displays for your inventory, bank, guild and vault",
+		"screenshotUrls": [
+			"https://media.forgecdn.net/attachments/222/768/watsup.jpg"
+		],
+		"dependencies": [
+			{
+				"externalAddonId": "29683",
+				"type": 1
+			},
+			{
+				"externalAddonId": "21538",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338963",
+				"type": 1
+			},
+			{
+				"externalAddonId": "359170",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338958",
+				"type": 1
+			},
+			{
+				"externalAddonId": "358535",
+				"type": 1
+			},
+			{
+				"externalAddonId": "358824",
+				"type": 1
+			},
+			{
+				"externalAddonId": "5422",
+				"type": 3
+			},
+			{
+				"externalAddonId": "339139",
+				"type": 4
+			},
+			{
+				"externalAddonId": "20283",
+				"type": 4
+			},
+			{
+				"externalAddonId": "22373",
+				"type": 1
+			},
+			{
+				"externalAddonId": "711577",
+				"type": 1
+			},
+			{
+				"externalAddonId": "338957",
+				"type": 1
+			}
+		],
+		"externalChannel": "Stable",
+		"isLoadOnDemand": false,
+		"externalLatestReleaseId": "5105826",
+		"fundingLinks": [],
+		"latestChangelogVersion": "10.2.19",
+		"installationId": "b7f82871-3217-4f7c-8010-8a033fadbf89",
+		"installedFolderList": [
+			"BagBrother",
+			"Bagnon",
+			"Bagnon_Config",
+			"Bagnon_GuildBank",
+			"Bagnon_VoidStorage"
+		],
+		"installedExternalReleaseId": "5105826",
+		"installedVersion": "10.2.19",
+		"installedAt": "2024-02-14T13:10:20.207Z",
+		"installedFolders": "BagBrother,Bagnon,Bagnon_Config,Bagnon_GuildBank,Bagnon_VoidStorage",
+		"externalIds": [
+			{
+				"id": "1592",
+				"providerName": "Curse"
+			}
+		]
+	}
+}

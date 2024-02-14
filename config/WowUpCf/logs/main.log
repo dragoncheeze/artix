@@ -1,0 +1,491 @@
+[2024-02-14 07:07:44.946] [info]  Main starting
+[2024-02-14 07:07:44.950] [info]  Electron: 26.2.0
+[2024-02-14 07:07:44.950] [info]  BinaryPath: /tmp/.mount_WowUp-3gQ1zE/wowup-cf
+[2024-02-14 07:07:44.950] [info]  ExecPath /tmp/.mount_WowUp-3gQ1zE/wowup-cf
+[2024-02-14 07:07:44.950] [info]  Args [ '/tmp/.mount_WowUp-3gQ1zE/wowup-cf' ]
+[2024-02-14 07:07:44.951] [info]  Log path: /home/colby/.config/WowUpCf/logs
+[2024-02-14 07:07:44.951] [warn]  File does not exist: /home/colby/.config/WowUpCf/GPUCache
+[2024-02-14 07:07:44.951] [warn]  ENOENT: no such file or directory, access '/home/colby/.config/WowUpCf/GPUCache'
+[2024-02-14 07:07:44.952] [info]  ARGV { _: [], serve: false, hidden: false }
+[2024-02-14 07:07:44.952] [info]  USER_AGENT WowUp-Client/2.11.0 (Linux; 6.6.16-1-lts; x64; CF;  +https://wowup.io)
+[2024-02-14 07:07:44.953] [info]  Setting default preference: enable_system_notifications -> true
+[2024-02-14 07:07:44.962] [info]  Setting default preference: collapse_to_tray -> true
+[2024-02-14 07:07:44.967] [info]  Setting default preference: use_hardware_acceleration -> true
+[2024-02-14 07:07:44.971] [info]  Setting default preference: current_theme -> default-theme
+[2024-02-14 07:07:44.978] [info]  Setting default preference: wowup_release_channel_2_6 -> 1
+[2024-02-14 07:07:44.982] [info]  Setting default preference: use_symlink_mode -> false
+[2024-02-14 07:07:44.994] [info]  Setting default preference: enable_app_badge -> true
+[2024-02-14 07:07:45.000] [info]  Setting default preference: trusted_domains -> wowup.io,dev.wowup.io,discord.gg,www.patreon.com,github.com,wago.io,addons.wago.io
+[2024-02-14 07:07:45.011] [info]  Setting default preference: acct_push_enabled -> false
+[2024-02-14 07:07:45.050] [info]  Hardware acceleration enabled
+[2024-02-14 07:07:45.466] [info]  App ready: 515ms
+[2024-02-14 07:07:45.524] [info]  process.versions {
+  node: '18.16.1',
+  acorn: '8.8.2',
+  ada: '1.0.4',
+  ares: '1.19.1',
+  brotli: '1.0.9',
+  cldr: '43.0',
+  icu: '73.1',
+  llhttp: '6.0.11',
+  modules: '116',
+  napi: '8',
+  nghttp2: '1.52.0',
+  openssl: '1.1.1',
+  simdutf: '3.2.2',
+  tz: '2023c',
+  undici: '5.21.0',
+  unicode: '15.0',
+  uv: '1.44.2',
+  uvwasi: '0.0.15',
+  v8: '11.6.189.20-electron.0',
+  zlib: '1.2.13.1-motley',
+  electron: '26.2.0',
+  chrome: '116.0.5845.179'
+}
+[2024-02-14 07:07:45.524] [info]  Loading app URL: 573ms
+[2024-02-14 07:07:46.121] [info]  Checking for update
+[2024-02-14 07:07:46.121] [info]  autoUpdater checking-for-update
+[2024-02-14 07:07:46.128] [info]  Generated new staging user ID: 799bf259-c0ad-53bf-a3d6-350273058378
+[2024-02-14 07:07:46.193] [info]  window config saved
+[2024-02-14 07:07:46.468] [info]  Platform linux true
+[2024-02-14 07:07:46.470] [info]  [CreateDirectory] '/home/colby/.config/WowUpCf/downloads'
+[2024-02-14 07:07:46.485] [info]  Language setup start
+[2024-02-14 07:07:46.499] [info]  getStartMinimized undefined undefined
+[2024-02-14 07:07:46.501] [info]  Set Language Preference: undefined
+[2024-02-14 07:07:46.505] [info]  loginItemSettings { __zone_symbol__state: null, __zone_symbol__value: [] }
+[2024-02-14 07:07:46.512] [error] Failed to search for Lutris library location Error
+    at file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:1328809
+    at Generator.next (<anonymous>)
+    at MK (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737613)
+    at a (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737816)
+    at v.invoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6583)
+    at Object.onInvoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:634704)
+    at v.invoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6523)
+    at L.run (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:1964)
+    at file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:16722
+    at v.invokeTask (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:7201)
+[2024-02-14 07:07:46.513] [error] Failed to search for blizzard products Error: Lutris library not found
+    at file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:1327700
+    at Generator.next (<anonymous>)
+    at MK (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737613)
+    at a (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737816)
+    at v.invoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6583)
+    at Object.onInvoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/main.f421da7cf63015b0.js:1:634704)
+    at v.invoke (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6523)
+    at L.run (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:1964)
+    at file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:16722
+    at v.invokeTask (file:///tmp/.mount_WowUp-3gQ1zE/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:7201)
+[2024-02-14 07:07:46.517] [info]  [GET] ./assets/i18n/en.json 200 4ms
+[2024-02-14 07:07:46.532] [info]  using locale en
+[2024-02-14 07:07:46.537] [info]  Cannot import wow installations, no agent path
+[2024-02-14 07:07:46.538] [info]  Language setup complete
+[2024-02-14 07:07:46.571] [info]  WowUpProtocolService 
+[2024-02-14 07:07:46.579] [info]  Creating app menu
+[2024-02-14 07:07:46.605] [info]  zoomPref undefined
+[2024-02-14 07:07:46.607] [info]  App menu created true
+[2024-02-14 07:07:46.607] [info]  Creating tray
+[2024-02-14 07:07:46.618] [info]  Tray created true
+[2024-02-14 07:07:46.660] [info]  Set Language Preference: en
+[2024-02-14 07:07:46.704] [info]  cmpRequired false
+[2024-02-14 07:07:46.951] [info]  Update for version 2.11.0 is not available (latest version: 2.11.0, downgrade is disallowed).
+[2024-02-14 07:07:46.951] [info]  autoUpdater update-not-available {
+  tag: 'v2.11.0',
+  version: '2.11.0',
+  files: [
+    {
+      url: 'WowUp-CF-2.11.0.AppImage',
+      sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+      size: 120553003,
+      blockMapSize: 126527
+    }
+  ],
+  path: 'WowUp-CF-2.11.0.AppImage',
+  sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+  releaseDate: '2024-02-05T17:09:55.424Z',
+  releaseName: '2.11.0',
+  releaseNotes: '<p>Lots of changes</p>'
+}
+[2024-02-14 07:07:46.951] [info]  checkForUpdates {
+  versionInfo: {
+    tag: 'v2.11.0',
+    version: '2.11.0',
+    files: [
+      {
+        url: 'WowUp-CF-2.11.0.AppImage',
+        sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+        size: 120553003,
+        blockMapSize: 126527
+      }
+    ],
+    path: 'WowUp-CF-2.11.0.AppImage',
+    sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+    releaseDate: '2024-02-05T17:09:55.424Z',
+    releaseName: '2.11.0',
+    releaseNotes: '<p>Lots of changes</p>'
+  }
+}
+[2024-02-14 07:07:46.952] [info]  IPC_APP_UPDATE_STATE app-update-state
+[2024-02-14 07:07:46.952] [info]  { state: 3 }
+[2024-02-14 07:07:49.990] [info]  { telemetry: true, wagoProvider: true }
+[2024-02-14 07:07:50.084] [info]  Set Language Preference: en
+[2024-02-14 07:07:50.419] [info]  Checking for addon updates...
+[2024-02-14 07:07:50.468] [warn]  AG Grid: Since v31, 'columnApi.applyColumnState' is deprecated and moved to 'api.applyColumnState'.
+[2024-02-14 07:07:50.536] [info]  getCollapseToTray true
+[2024-02-14 07:07:50.539] [info]  Set Language Preference: en
+[2024-02-14 07:07:50.543] [info]  getStartMinimized undefined undefined
+[2024-02-14 07:07:50.556] [warn]  AG Grid: Since v31, 'columnApi.getColumnState' is deprecated and moved to 'api.getColumnState'.
+[2024-02-14 07:07:50.567] [warn]  AG Grid: setRowData is deprecated. Please use 'api.setGridOption('rowData', newValue)' or 'api.updateGridOptions({ rowData: newValue })' instead.
+[2024-02-14 07:08:04.984] [info]  dialogResult /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe
+[2024-02-14 07:08:04.985] [info]  isWowApplication true
+[2024-02-14 07:08:04.986] [info]  wowInstallation {
+  id: '3adc097b-fab0-4bde-9cf4-fcab020a7e0f',
+  clientType: 1,
+  defaultAddonChannelType: 0,
+  defaultAutoUpdate: false,
+  label: '{defaultName}',
+  displayName: 'Wrath of the Lich King Classic',
+  location: '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe',
+  selected: false
+}
+[2024-02-14 07:08:04.987] [info]  Setting wow installations: 1
+[2024-02-14 07:08:04.995] [info]  onAutoUpdateInterval
+[2024-02-14 07:08:05.009] [info]  Setting wow installations: 1
+[2024-02-14 07:08:05.036] [info]  WowUpAddonService: No addons to sync {defaultName}
+[2024-02-14 07:08:05.038] [info]  Checking for addon updates...
+[2024-02-14 07:08:15.405] [info]  dialogResult /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe
+[2024-02-14 07:08:15.406] [info]  isWowApplication true
+[2024-02-14 07:08:15.407] [info]  wowInstallation {
+  id: 'b7f82871-3217-4f7c-8010-8a033fadbf89',
+  clientType: 6,
+  defaultAddonChannelType: 0,
+  defaultAutoUpdate: false,
+  label: '{defaultName}',
+  displayName: 'World of Warcraft Classic',
+  location: '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe',
+  selected: false
+}
+[2024-02-14 07:08:15.408] [info]  Setting wow installations: 2
+[2024-02-14 07:08:17.933] [warn]  AG Grid: Since v31, 'columnApi.autoSizeColumns' is deprecated and moved to 'api.autoSizeColumns'.
+[2024-02-14 07:08:20.649] [info]  [GET] https://api.tukui.org/v1/addons 200 220ms
+[2024-02-14 07:08:20.972] [info]  [GET] https://api.tukui.org/v1/changelog/elvui 200 320ms
+[2024-02-14 07:08:21.329] [info]  [GET] https://api.tukui.org/v1/changelog/tukui 200 240ms
+[2024-02-14 07:08:21.490] [info]  [GET] https://hub.wowup.io/addons/featured/wotlk?count=60&recent=30 200 1064ms
+[2024-02-14 07:08:23.493] [info]  [AddonInstall] WowUpHub 10 WeakAuras '' -> '5.10.1'
+[2024-02-14 07:08:23.495] [info]  [DownloadFile] 'https://github.com/WeakAuras/WeakAuras2/releases/download/5.10.1/WeakAuras-5.10.1.zip' -> '/home/colby/.config/WowUpCf/downloads/xGGZKzX_75Wicc5f4CAk3-weakauras.zip'
+[2024-02-14 07:08:23.735] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/25056248/0adf32cf-4b9a-48a0-8b0a-323cbc865567?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T130823Z&X-Amz-Expires=300&X-Amz-Signature=b78d9cb1b3824d1e49a404c417136bc5fc477d490c34ae1def96940a42ffd28c&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25056248&response-content-disposition=attachment%3B%20filename%3DWeakAuras-5.10.1.zip&response-content-type=application%2Foctet-stream
+[2024-02-14 07:08:23.930] [debug] Write: [0] 15555
+[2024-02-14 07:08:23.997] [debug] Write: [5] 425146
+[2024-02-14 07:08:24.061] [debug] Write: [10] 834737
+[2024-02-14 07:08:24.115] [debug] Write: [15] 1277114
+[2024-02-14 07:08:24.166] [debug] Write: [20] 1670330
+[2024-02-14 07:08:24.216] [debug] Write: [25] 2079921
+[2024-02-14 07:08:24.263] [debug] Write: [30] 2555048
+[2024-02-14 07:08:24.303] [debug] Write: [35] 2915514
+[2024-02-14 07:08:24.347] [debug] Write: [40] 3357891
+[2024-02-14 07:08:24.386] [debug] Write: [45] 3767482
+[2024-02-14 07:08:24.419] [debug] Write: [50] 4193448
+[2024-02-14 07:08:24.452] [debug] Write: [55] 4603075
+[2024-02-14 07:08:24.487] [debug] Write: [60] 4996291
+[2024-02-14 07:08:24.521] [debug] Write: [65] 5422257
+[2024-02-14 07:08:24.523] [info]  [AddonInstall] WowUpHub 47671 Questie v9.4.1 '' -> '9.4.1'
+[2024-02-14 07:08:24.524] [info]  [DownloadFile] 'https://github.com/Questie/Questie/releases/download/v9.4.1/Questie-v9.4.1.zip' -> '/home/colby/.config/WowUpCf/downloads/w4oHuEklKKe7ud5sNDkPE-questie-v941.zip'
+[2024-02-14 07:08:24.551] [debug] Write: [70] 5818883
+[2024-02-14 07:08:24.576] [debug] Write: [75] 6244885
+[2024-02-14 07:08:24.602] [debug] Write: [80] 6670851
+[2024-02-14 07:08:24.633] [debug] Write: [85] 7080478
+[2024-02-14 07:08:24.635] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/31859273/9d828f03-803c-48a5-8f6d-52e47b198645?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T130824Z&X-Amz-Expires=300&X-Amz-Signature=6ab8c50d781b569ded4070b1d035345fdcbe842321d2930da1d8196d13162f18&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=31859273&response-content-disposition=attachment%3B%20filename%3DQuestie-v9.4.1.zip&response-content-type=application%2Foctet-stream
+[2024-02-14 07:08:24.654] [debug] Write: [90] 7506444
+[2024-02-14 07:08:24.690] [debug] Write: [95] 7948821
+[2024-02-14 07:08:24.710] [debug] Write: [100] 8302213
+[2024-02-14 07:08:24.714] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/xGGZKzX_75Wicc5f4CAk3-weakauras.zip
+[2024-02-14 07:08:24.788] [debug] Write: [0] 48307
+[2024-02-14 07:08:24.846] [debug] Write: [5] 1243622
+[2024-02-14 07:08:24.921] [debug] Write: [10] 2472431
+[2024-02-14 07:08:24.979] [debug] Write: [15] 3717615
+[2024-02-14 07:08:25.031] [debug] Write: [20] 4946424
+[2024-02-14 07:08:25.087] [debug] Write: [25] 6175206
+[2024-02-14 07:08:25.136] [debug] Write: [30] 7436801
+[2024-02-14 07:08:25.177] [debug] Write: [35] 8632824
+[2024-02-14 07:08:25.232] [debug] Write: [40] 9861633
+[2024-02-14 07:08:25.273] [debug] Write: [45] 11123192
+[2024-02-14 07:08:25.304] [debug] Write: [50] 12302840
+[2024-02-14 07:08:25.353] [debug] Write: [55] 13580774
+[2024-02-14 07:08:25.383] [debug] Write: [60] 14825958
+[2024-02-14 07:08:25.424] [debug] Write: [65] 16054767
+[2024-02-14 07:08:25.461] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras'
+[2024-02-14 07:08:25.484] [debug] Write: [70] 17267201
+[2024-02-14 07:08:25.533] [debug] Write: [75] 18463188
+[2024-02-14 07:08:25.558] [debug] Write: [80] 19692033
+[2024-02-14 07:08:25.591] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive'
+[2024-02-14 07:08:25.593] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths'
+[2024-02-14 07:08:25.596] [debug] Write: [85] 20937217
+[2024-02-14 07:08:25.635] [debug] Write: [90] 22149615
+[2024-02-14 07:08:25.638] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions'
+[2024-02-14 07:08:25.668] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates'
+[2024-02-14 07:08:25.680] [debug] Write: [95] 23411174
+[2024-02-14 07:08:25.712] [warn]  Invalid provider id Wago|VBNBxKx5
+[2024-02-14 07:08:25.713] [warn]  [ { id: '24910', providerName: 'WowInterface' } ]
+[2024-02-14 07:08:25.723] [debug] Write: [100] 24601165
+[2024-02-14 07:08:25.726] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/w4oHuEklKKe7ud5sNDkPE-questie-v941.zip
+[2024-02-14 07:08:25.735] [info]  [AddonInstallComplete] WowUpHub 10 WeakAuras 5.10.1
+[2024-02-14 07:08:25.796] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/pU1SCnUJ7pcLmTrksXksq
+[2024-02-14 07:08:25.819] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/xGGZKzX_75Wicc5f4CAk3-weakauras.zip
+[2024-02-14 07:08:25.822] [info]  Install complete WeakAuras
+[2024-02-14 07:08:26.729] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/wlb0lN0cnwuOLH_BE_isY/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie'
+[2024-02-14 07:08:27.028] [warn]  Invalid provider id Wago|qv634BKb
+[2024-02-14 07:08:27.029] [warn]  []
+[2024-02-14 07:08:27.036] [info]  [AddonInstallComplete] WowUpHub 47671 Questie v9.4.1 9.4.1
+[2024-02-14 07:08:27.059] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/wlb0lN0cnwuOLH_BE_isY
+[2024-02-14 07:08:27.091] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/w4oHuEklKKe7ud5sNDkPE-questie-v941.zip
+[2024-02-14 07:08:27.098] [info]  Install complete Questie v9.4.1
+[2024-02-14 07:08:30.663] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=leatrix&limit=10 200 158ms
+[2024-02-14 07:08:32.488] [info]  [AddonInstall] Curse 463863 Leatrix Plus (Wrath of the Lich King Classic) '' -> '3.0.179-wrath'
+[2024-02-14 07:08:32.490] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5107/165/Leatrix_Plus-3.0.179-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/GTQMNd0LMvbGFxN58TU6D-leatrix-plus-wrath-of-the-lich-king-classic.zip'
+[2024-02-14 07:08:32.645] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5107/165/Leatrix_Plus-3.0.179-wrath.zip
+[2024-02-14 07:08:32.899] [debug] Write: [60] 407762
+[2024-02-14 07:08:32.903] [debug] Write: [65] 440494
+[2024-02-14 07:08:32.909] [debug] Write: [70] 473226
+[2024-02-14 07:08:32.911] [debug] Write: [75] 505958
+[2024-02-14 07:08:32.914] [debug] Write: [80] 538978
+[2024-02-14 07:08:32.916] [debug] Write: [85] 571710
+[2024-02-14 07:08:32.922] [debug] Write: [95] 637246
+[2024-02-14 07:08:32.923] [debug] Write: [100] 669485
+[2024-02-14 07:08:32.925] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/GTQMNd0LMvbGFxN58TU6D-leatrix-plus-wrath-of-the-lich-king-classic.zip
+[2024-02-14 07:08:32.962] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/hU880zEIIVB8l7QE-K-8S/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus'
+[2024-02-14 07:08:32.991] [info]  [AddonInstallComplete] Curse 463863 Leatrix Plus (Wrath of the Lich King Classic) 3.0.179-wrath
+[2024-02-14 07:08:33.014] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/hU880zEIIVB8l7QE-K-8S
+[2024-02-14 07:08:33.016] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/GTQMNd0LMvbGFxN58TU6D-leatrix-plus-wrath-of-the-lich-king-classic.zip
+[2024-02-14 07:08:33.017] [info]  Install complete Leatrix Plus (Wrath of the Lich King Classic)
+[2024-02-14 07:08:34.133] [info]  [AddonInstall] Curse 463868 Leatrix Maps (Wrath of the Lich King Classic) '' -> '3.0.179-wrath'
+[2024-02-14 07:08:34.134] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5107/166/Leatrix_Maps-3.0.179-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/aWfkEF5EIlBywSjbmAF7O-leatrix-maps-wrath-of-the-lich-king-classic.zip'
+[2024-02-14 07:08:34.203] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5107/166/Leatrix_Maps-3.0.179-wrath.zip
+[2024-02-14 07:08:34.245] [debug] Write: [45] 65536
+[2024-02-14 07:08:34.246] [debug] Write: [100] 142658
+[2024-02-14 07:08:34.249] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/aWfkEF5EIlBywSjbmAF7O-leatrix-maps-wrath-of-the-lich-king-classic.zip
+[2024-02-14 07:08:34.270] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/HzjZhnQxJBiWgrnz55-IC/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps'
+[2024-02-14 07:08:34.297] [info]  [AddonInstallComplete] Curse 463868 Leatrix Maps (Wrath of the Lich King Classic) 3.0.179-wrath
+[2024-02-14 07:08:34.324] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/HzjZhnQxJBiWgrnz55-IC
+[2024-02-14 07:08:34.326] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/aWfkEF5EIlBywSjbmAF7O-leatrix-maps-wrath-of-the-lich-king-classic.zip
+[2024-02-14 07:08:34.328] [info]  Install complete Leatrix Maps (Wrath of the Lich King Classic)
+[2024-02-14 07:08:39.193] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=auction&limit=10 200 231ms
+[2024-02-14 07:08:41.711] [info]  [AddonInstall] Curse 6124 Auctionator '' -> '10.2.24-wrath'
+[2024-02-14 07:08:41.713] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5100/2/Auctionator-10.2.24-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/2oimg26VhxdYCrtkh9SBV-auctionator.zip'
+[2024-02-14 07:08:41.754] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5100/2/Auctionator-10.2.24-wrath.zip
+[2024-02-14 07:08:41.785] [debug] Write: [0] 5308
+[2024-02-14 07:08:41.791] [debug] Write: [5] 39607
+[2024-02-14 07:08:41.811] [debug] Write: [10] 76720
+[2024-02-14 07:08:41.819] [debug] Write: [15] 116674
+[2024-02-14 07:08:41.827] [debug] Write: [20] 158076
+[2024-02-14 07:08:41.834] [debug] Write: [25] 198020
+[2024-02-14 07:08:41.854] [debug] Write: [40] 309264
+[2024-02-14 07:08:41.859] [debug] Write: [50] 383462
+[2024-02-14 07:08:41.861] [debug] Write: [55] 424821
+[2024-02-14 07:08:41.871] [debug] Write: [65] 497575
+[2024-02-14 07:08:41.876] [debug] Write: [75] 578873
+[2024-02-14 07:08:41.885] [debug] Write: [80] 614486
+[2024-02-14 07:08:41.894] [debug] Write: [95] 728589
+[2024-02-14 07:08:41.895] [debug] Write: [100] 764704
+[2024-02-14 07:08:41.897] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/2oimg26VhxdYCrtkh9SBV-auctionator.zip
+[2024-02-14 07:08:42.214] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/_Qmzl4dTc3XWAi6ZSJkWX/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator'
+[2024-02-14 07:08:42.340] [info]  [AddonInstallComplete] Curse 6124 Auctionator 10.2.24-wrath
+[2024-02-14 07:08:42.364] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/_Qmzl4dTc3XWAi6ZSJkWX
+[2024-02-14 07:08:42.376] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/2oimg26VhxdYCrtkh9SBV-auctionator.zip
+[2024-02-14 07:08:42.377] [info]  Install complete Auctionator
+[2024-02-14 07:08:44.725] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=pawn&limit=10 200 110ms
+[2024-02-14 07:08:46.512] [info]  [AddonInstall] Curse 4646 Pawn '' -> '2.8.9 (Wrath)'
+[2024-02-14 07:08:46.513] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5081/34/Pawn-2.8.9-Wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/lhzsn4BRh3mbkzckxadaC-pawn.zip'
+[2024-02-14 07:08:46.556] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5081/34/Pawn-2.8.9-Wrath.zip
+[2024-02-14 07:08:46.654] [debug] Write: [15] 110332
+[2024-02-14 07:08:46.662] [debug] Write: [30] 218824
+[2024-02-14 07:08:46.663] [debug] Write: [35] 255926
+[2024-02-14 07:08:46.664] [debug] Write: [40] 294450
+[2024-02-14 07:08:46.666] [debug] Write: [50] 365800
+[2024-02-14 07:08:46.666] [debug] Write: [55] 402897
+[2024-02-14 07:08:46.668] [debug] Write: [65] 474237
+[2024-02-14 07:08:46.678] [debug] Write: [85] 621212
+[2024-02-14 07:08:46.689] [debug] Write: [100] 729084
+[2024-02-14 07:08:46.692] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/lhzsn4BRh3mbkzckxadaC-pawn.zip
+[2024-02-14 07:08:46.744] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/u_IGn2fl10R9CJfi0pAKJ/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn'
+[2024-02-14 07:08:46.773] [warn]  Invalid provider id Wago|R4N2k46L
+[2024-02-14 07:08:46.773] [warn]  []
+[2024-02-14 07:08:46.788] [info]  [AddonInstallComplete] Curse 4646 Pawn 2.8.9 (Wrath)
+[2024-02-14 07:08:46.815] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/u_IGn2fl10R9CJfi0pAKJ
+[2024-02-14 07:08:46.818] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/lhzsn4BRh3mbkzckxadaC-pawn.zip
+[2024-02-14 07:08:46.819] [info]  Install complete Pawn
+[2024-02-14 07:08:57.487] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=bagnon&limit=10 200 109ms
+[2024-02-14 07:08:57.510] [info]  [GET] https://api.tukui.org/v1/addons 200 117ms
+[2024-02-14 07:08:59.286] [info]  [AddonInstall] Curse 1592 Bagnon '' -> '10.2.19'
+[2024-02-14 07:08:59.287] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip' -> '/home/colby/.config/WowUpCf/downloads/b6n6-xYTcUmF0RvcHB5tm-bagnon.zip'
+[2024-02-14 07:08:59.334] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip
+[2024-02-14 07:08:59.361] [debug] Write: [20] 58109
+[2024-02-14 07:08:59.365] [debug] Write: [65] 180940
+[2024-02-14 07:08:59.367] [debug] Write: [100] 277012
+[2024-02-14 07:08:59.370] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/b6n6-xYTcUmF0RvcHB5tm-bagnon.zip
+[2024-02-14 07:08:59.467] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother'
+[2024-02-14 07:08:59.507] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon'
+[2024-02-14 07:08:59.511] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config'
+[2024-02-14 07:08:59.512] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank'
+[2024-02-14 07:08:59.513] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage'
+[2024-02-14 07:08:59.551] [info]  [AddonInstallComplete] Curse 1592 Bagnon 10.2.19
+[2024-02-14 07:08:59.580] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/T7cNgNoGlwf604Xv1UQ93
+[2024-02-14 07:08:59.587] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/b6n6-xYTcUmF0RvcHB5tm-bagnon.zip
+[2024-02-14 07:08:59.588] [info]  Install complete Bagnon
+[2024-02-14 07:09:06.407] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=ilvl&limit=10 200 248ms
+[2024-02-14 07:09:14.091] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=itemlevel&limit=10 200 139ms
+[2024-02-14 07:09:21.369] [info]  [GET] https://hub.wowup.io/addons/search/wotlk?query=item%20level&limit=10 200 134ms
+[2024-02-14 07:09:24.194] [info]  [AddonInstall] Curse 287692 Simple Item Levels '' -> 'v33.3'
+[2024-02-14 07:09:24.195] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5074/921/SimpleItemLevel-v33.3.zip' -> '/home/colby/.config/WowUpCf/downloads/NKUttyKj1IQQ6yTTgJ-AS-simple-item-levels.zip'
+[2024-02-14 07:09:24.257] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5074/921/SimpleItemLevel-v33.3.zip
+[2024-02-14 07:09:24.374] [debug] Write: [100] 21543
+[2024-02-14 07:09:24.379] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/NKUttyKj1IQQ6yTTgJ-AS-simple-item-levels.zip
+[2024-02-14 07:09:24.397] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/txU-aeOkEaT89lXV0tjzl/SimpleItemLevel' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel'
+[2024-02-14 07:09:24.434] [warn]  Invalid provider id Wago|WYK9Da6L
+[2024-02-14 07:09:24.435] [warn]  []
+[2024-02-14 07:09:24.442] [info]  [AddonInstallComplete] Curse 287692 Simple Item Levels v33.3
+[2024-02-14 07:09:24.486] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/txU-aeOkEaT89lXV0tjzl
+[2024-02-14 07:09:24.489] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/NKUttyKj1IQQ6yTTgJ-AS-simple-item-levels.zip
+[2024-02-14 07:09:24.489] [info]  Install complete Simple Item Levels
+[2024-02-14 07:09:27.609] [info]  [GET] https://api.tukui.org/v1/changelog/elvui 200 394ms
+[2024-02-14 07:09:27.867] [info]  [GET] https://hub.wowup.io/addons/featured/wotlk?count=60&recent=30 200 661ms
+[2024-02-14 07:09:27.871] [info]  [GET] https://api.tukui.org/v1/changelog/tukui 200 209ms
+[2024-02-14 07:09:45.483] [info]  Setting wow installations: 2
+[2024-02-14 07:09:45.575] [info]  [GET] https://api.tukui.org/v1/addons 200 81ms
+[2024-02-14 07:09:46.191] [info]  [GET] https://hub.wowup.io/addons/featured/classic?count=60&recent=30 200 699ms
+[2024-02-14 07:09:49.633] [info]  [AddonInstall] WowUpHub 10 WeakAuras '' -> '5.10.1'
+[2024-02-14 07:09:49.635] [info]  [DownloadFile] 'https://github.com/WeakAuras/WeakAuras2/releases/download/5.10.1/WeakAuras-5.10.1.zip' -> '/home/colby/.config/WowUpCf/downloads/usez2NyjTeghCSV2fRaKx-weakauras.zip'
+[2024-02-14 07:09:49.813] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/25056248/0adf32cf-4b9a-48a0-8b0a-323cbc865567?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T130823Z&X-Amz-Expires=300&X-Amz-Signature=b78d9cb1b3824d1e49a404c417136bc5fc477d490c34ae1def96940a42ffd28c&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25056248&response-content-disposition=attachment%3B%20filename%3DWeakAuras-5.10.1.zip&response-content-type=application%2Foctet-stream
+[2024-02-14 07:09:49.822] [debug] Write: [25] 2097152
+[2024-02-14 07:09:49.832] [debug] Write: [50] 4194304
+[2024-02-14 07:09:49.832] [debug] Write: [75] 6291456
+[2024-02-14 07:09:49.834] [debug] Write: [100] 8302213
+[2024-02-14 07:09:49.836] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/usez2NyjTeghCSV2fRaKx-weakauras.zip
+[2024-02-14 07:09:50.301] [info]  [AddonInstall] WowUpHub 47671 Questie v9.4.1 '' -> '9.4.1'
+[2024-02-14 07:09:50.302] [info]  [DownloadFile] 'https://github.com/Questie/Questie/releases/download/v9.4.1/Questie-v9.4.1.zip' -> '/home/colby/.config/WowUpCf/downloads/s8BBjBl7CiHtsho7J1EuQ-questie-v941.zip'
+[2024-02-14 07:09:50.348] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras'
+[2024-02-14 07:09:50.357] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/31859273/9d828f03-803c-48a5-8f6d-52e47b198645?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240214%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240214T130824Z&X-Amz-Expires=300&X-Amz-Signature=6ab8c50d781b569ded4070b1d035345fdcbe842321d2930da1d8196d13162f18&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=31859273&response-content-disposition=attachment%3B%20filename%3DQuestie-v9.4.1.zip&response-content-type=application%2Foctet-stream
+[2024-02-14 07:09:50.361] [debug] Write: [5] 1245184
+[2024-02-14 07:09:50.363] [debug] Write: [10] 2490368
+[2024-02-14 07:09:50.364] [debug] Write: [15] 3735552
+[2024-02-14 07:09:50.367] [debug] Write: [25] 6225920
+[2024-02-14 07:09:50.368] [debug] Write: [30] 7471104
+[2024-02-14 07:09:50.373] [debug] Write: [50] 12451840
+[2024-02-14 07:09:50.377] [debug] Write: [55] 13762560
+[2024-02-14 07:09:50.382] [debug] Write: [80] 19791872
+[2024-02-14 07:09:50.384] [debug] Write: [85] 20971520
+[2024-02-14 07:09:50.388] [debug] Write: [100] 24601165
+[2024-02-14 07:09:50.389] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/s8BBjBl7CiHtsho7J1EuQ-questie-v941.zip
+[2024-02-14 07:09:50.524] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive'
+[2024-02-14 07:09:50.525] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths'
+[2024-02-14 07:09:50.572] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions'
+[2024-02-14 07:09:50.606] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates'
+[2024-02-14 07:09:50.637] [warn]  Invalid provider id Wago|VBNBxKx5
+[2024-02-14 07:09:50.638] [warn]  [ { id: '24910', providerName: 'WowInterface' } ]
+[2024-02-14 07:09:50.645] [info]  [AddonInstallComplete] WowUpHub 10 WeakAuras 5.10.1
+[2024-02-14 07:09:50.657] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/S0OiQ5_MzLX2Q80wE_z04
+[2024-02-14 07:09:50.674] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/usez2NyjTeghCSV2fRaKx-weakauras.zip
+[2024-02-14 07:09:50.677] [info]  Install complete WeakAuras
+[2024-02-14 07:09:51.269] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-4JjjzeGRC4Os8vZ-jeIw/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie'
+[2024-02-14 07:09:51.542] [warn]  Invalid provider id Wago|qv634BKb
+[2024-02-14 07:09:51.543] [warn]  []
+[2024-02-14 07:09:51.560] [info]  [AddonInstallComplete] WowUpHub 47671 Questie v9.4.1 9.4.1
+[2024-02-14 07:09:51.580] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/-4JjjzeGRC4Os8vZ-jeIw
+[2024-02-14 07:09:51.603] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/s8BBjBl7CiHtsho7J1EuQ-questie-v941.zip
+[2024-02-14 07:09:51.609] [info]  Install complete Questie v9.4.1
+[2024-02-14 07:09:53.998] [info]  [GET] https://hub.wowup.io/addons/search/classic?query=leatrix&limit=10 200 137ms
+[2024-02-14 07:09:55.598] [info]  [AddonInstall] Curse 324034 Leatrix Maps (Classic Era) '' -> '1.15.18-classic'
+[2024-02-14 07:09:55.599] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5107/141/Leatrix_Maps-1.15.18-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/s_Pe5wmZkouGKuz-jUKMT-leatrix-maps-classic-era.zip'
+[2024-02-14 07:09:55.724] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5107/141/Leatrix_Maps-1.15.18-classic.zip
+[2024-02-14 07:09:55.805] [debug] Write: [100] 105342
+[2024-02-14 07:09:55.808] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/s_Pe5wmZkouGKuz-jUKMT-leatrix-maps-classic-era.zip
+[2024-02-14 07:09:55.822] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/bI8xaKq1uxkEQVIzTx_eE/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps'
+[2024-02-14 07:09:55.851] [info]  [AddonInstallComplete] Curse 324034 Leatrix Maps (Classic Era) 1.15.18-classic
+[2024-02-14 07:09:55.861] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/bI8xaKq1uxkEQVIzTx_eE
+[2024-02-14 07:09:55.871] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/s_Pe5wmZkouGKuz-jUKMT-leatrix-maps-classic-era.zip
+[2024-02-14 07:09:55.872] [info]  Install complete Leatrix Maps (Classic Era)
+[2024-02-14 07:09:56.199] [info]  [AddonInstall] Curse 322362 Leatrix Plus (Classic Era) '' -> '1.15.18-classic'
+[2024-02-14 07:09:56.200] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5107/142/Leatrix_Plus-1.15.18-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/MWQ74qAWQJM_ZodiZuBEy-leatrix-plus-classic-era.zip'
+[2024-02-14 07:09:56.272] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5107/142/Leatrix_Plus-1.15.18-classic.zip
+[2024-02-14 07:09:56.307] [debug] Write: [5] 32470
+[2024-02-14 07:09:56.329] [debug] Write: [10] 62448
+[2024-02-14 07:09:56.333] [debug] Write: [15] 86708
+[2024-02-14 07:09:56.355] [debug] Write: [30] 175207
+[2024-02-14 07:09:56.364] [debug] Write: [40] 230834
+[2024-02-14 07:09:56.367] [debug] Write: [45] 260817
+[2024-02-14 07:09:56.377] [debug] Write: [55] 317879
+[2024-02-14 07:09:56.391] [debug] Write: [70] 403456
+[2024-02-14 07:09:56.395] [debug] Write: [75] 429142
+[2024-02-14 07:09:56.396] [debug] Write: [80] 456232
+[2024-02-14 07:09:56.398] [debug] Write: [85] 484772
+[2024-02-14 07:09:56.405] [debug] Write: [100] 569486
+[2024-02-14 07:09:56.408] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/MWQ74qAWQJM_ZodiZuBEy-leatrix-plus-classic-era.zip
+[2024-02-14 07:09:56.447] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/sXmhZUCFGKd_h-6BUS7CH/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus'
+[2024-02-14 07:09:56.482] [info]  [AddonInstallComplete] Curse 322362 Leatrix Plus (Classic Era) 1.15.18-classic
+[2024-02-14 07:09:56.499] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/sXmhZUCFGKd_h-6BUS7CH
+[2024-02-14 07:09:56.501] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/MWQ74qAWQJM_ZodiZuBEy-leatrix-plus-classic-era.zip
+[2024-02-14 07:09:56.503] [info]  Install complete Leatrix Plus (Classic Era)
+[2024-02-14 07:09:59.588] [info]  [GET] https://hub.wowup.io/addons/search/classic?query=pawn&limit=10 200 115ms
+[2024-02-14 07:10:00.867] [info]  [AddonInstall] Curse 4646 Pawn '' -> '2.8.9 (Classic)'
+[2024-02-14 07:10:00.868] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5081/26/Pawn-2.8.9-Classic.zip' -> '/home/colby/.config/WowUpCf/downloads/dhd0VcMZQsgV22sZY5mhE-pawn.zip'
+[2024-02-14 07:10:00.908] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5081/26/Pawn-2.8.9-Classic.zip
+[2024-02-14 07:10:01.004] [debug] Write: [20] 146314
+[2024-02-14 07:10:01.007] [debug] Write: [25] 189140
+[2024-02-14 07:10:01.010] [debug] Write: [35] 259063
+[2024-02-14 07:10:01.025] [debug] Write: [60] 438833
+[2024-02-14 07:10:01.031] [debug] Write: [75] 548666
+[2024-02-14 07:10:01.033] [debug] Write: [80] 585751
+[2024-02-14 07:10:01.036] [debug] Write: [90] 657078
+[2024-02-14 07:10:01.038] [debug] Write: [100] 729085
+[2024-02-14 07:10:01.040] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/dhd0VcMZQsgV22sZY5mhE-pawn.zip
+[2024-02-14 07:10:01.108] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/4Y5rf5cBJFw2dWXXRWPYK/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn'
+[2024-02-14 07:10:01.140] [warn]  Invalid provider id Wago|R4N2k46L
+[2024-02-14 07:10:01.140] [warn]  []
+[2024-02-14 07:10:01.151] [info]  [AddonInstallComplete] Curse 4646 Pawn 2.8.9 (Classic)
+[2024-02-14 07:10:01.174] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/4Y5rf5cBJFw2dWXXRWPYK
+[2024-02-14 07:10:01.177] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/dhd0VcMZQsgV22sZY5mhE-pawn.zip
+[2024-02-14 07:10:01.177] [info]  Install complete Pawn
+[2024-02-14 07:10:04.086] [info]  [GET] https://hub.wowup.io/addons/search/classic?query=auction&limit=10 200 147ms
+[2024-02-14 07:10:06.291] [info]  [AddonInstall] Curse 6124 Auctionator '' -> '10.2.24-classic'
+[2024-02-14 07:10:06.292] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5100/3/Auctionator-10.2.24-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/tyCK8Ls4agtosoI9vuUWS-auctionator.zip'
+[2024-02-14 07:10:06.360] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5100/3/Auctionator-10.2.24-classic.zip
+[2024-02-14 07:10:06.478] [debug] Write: [35] 272835
+[2024-02-14 07:10:06.481] [debug] Write: [50] 391266
+[2024-02-14 07:10:06.493] [debug] Write: [100] 772147
+[2024-02-14 07:10:06.497] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/tyCK8Ls4agtosoI9vuUWS-auctionator.zip
+[2024-02-14 07:10:06.791] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/ReWH70PLBQuAos90eRDer/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator'
+[2024-02-14 07:10:06.926] [info]  [AddonInstallComplete] Curse 6124 Auctionator 10.2.24-classic
+[2024-02-14 07:10:06.951] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/ReWH70PLBQuAos90eRDer
+[2024-02-14 07:10:06.963] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/tyCK8Ls4agtosoI9vuUWS-auctionator.zip
+[2024-02-14 07:10:06.963] [info]  Install complete Auctionator
+[2024-02-14 07:10:11.893] [info]  [GET] https://hub.wowup.io/addons/search/classic?query=desat&limit=10 200 99ms
+[2024-02-14 07:10:13.884] [info]  [AddonInstall] Curse 334517 Quest Icon Desaturation '' -> '3.4.1'
+[2024-02-14 07:10:13.885] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/4720/379/QuestIconDesaturation-3.4.1.zip' -> '/home/colby/.config/WowUpCf/downloads/WgyqNXE4qGrXdEkXPJU2I-quest-icon-desaturation.zip'
+[2024-02-14 07:10:13.935] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/4720/379/QuestIconDesaturation-3.4.1.zip
+[2024-02-14 07:10:14.077] [debug] Write: [100] 3255
+[2024-02-14 07:10:14.080] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/WgyqNXE4qGrXdEkXPJU2I-quest-icon-desaturation.zip
+[2024-02-14 07:10:14.093] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/4L24bgO6IiswMmfA7ycyE/QuestIconDesaturation' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/QuestIconDesaturation'
+[2024-02-14 07:10:14.123] [info]  [AddonInstallComplete] Curse 334517 Quest Icon Desaturation 3.4.1
+[2024-02-14 07:10:14.145] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/4L24bgO6IiswMmfA7ycyE
+[2024-02-14 07:10:14.146] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/WgyqNXE4qGrXdEkXPJU2I-quest-icon-desaturation.zip
+[2024-02-14 07:10:14.147] [info]  Install complete Quest Icon Desaturation
+[2024-02-14 07:10:18.615] [info]  [GET] https://hub.wowup.io/addons/search/classic?query=bagnon&limit=10 200 115ms
+[2024-02-14 07:10:18.616] [info]  [GET] https://api.tukui.org/v1/addons 200 114ms
+[2024-02-14 07:10:20.026] [info]  [AddonInstall] Curse 1592 Bagnon '' -> '10.2.19'
+[2024-02-14 07:10:20.028] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip' -> '/home/colby/.config/WowUpCf/downloads/gmVY94DAeHYxlBSGvcIaR-bagnon.zip'
+[2024-02-14 07:10:20.069] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5105/826/Bagnon-10.2.19.zip
+[2024-02-14 07:10:20.073] [debug] Write: [100] 277012
+[2024-02-14 07:10:20.076] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/gmVY94DAeHYxlBSGvcIaR-bagnon.zip
+[2024-02-14 07:10:20.165] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother'
+[2024-02-14 07:10:20.201] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon'
+[2024-02-14 07:10:20.205] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config'
+[2024-02-14 07:10:20.206] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank'
+[2024-02-14 07:10:20.207] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage'
+[2024-02-14 07:10:20.244] [info]  [AddonInstallComplete] Curse 1592 Bagnon 10.2.19
+[2024-02-14 07:10:20.270] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/5rgE-uS-pyTIK5iigUHGZ
+[2024-02-14 07:10:20.276] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/gmVY94DAeHYxlBSGvcIaR-bagnon.zip
+[2024-02-14 07:10:20.276] [info]  Install complete Bagnon
+[2024-02-14 07:10:32.200] [info]  [GET] https://api.tukui.org/v1/changelog/elvui 200 357ms
+[2024-02-14 07:10:32.423] [info]  [GET] https://api.tukui.org/v1/changelog/tukui 200 195ms
+[2024-02-14 07:10:32.817] [info]  [GET] https://hub.wowup.io/addons/featured/classic?count=60&recent=30 200 987ms
+[2024-02-14 07:10:34.977] [info]  window config saved
+[2024-02-14 07:10:40.232] [info]  window config saved
