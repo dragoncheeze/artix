@@ -6,4 +6,4 @@ sudo pacman -S --needed sway swaylock swayidle swaybg firefox i3status \
     gamemode flatpak polkit cups-dinit ipp-usb ghostscript dunst imv libadwaita \
     gnome-themes-extra otf-font-awesome ttf-croscore ttf-dejavu ttf-droid \
     gnu-free-fonts ttf-liberation noto-fonts ttf-roboto ttf-ubuntu-font-family \
-    thunar thunar-volman exo thunar-archive-plugin tumbler
+    thunar thunar-volman exo thunar-archive-plugin tumbler avahi-dinit
