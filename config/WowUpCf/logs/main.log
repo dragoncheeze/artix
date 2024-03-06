@@ -489,3 +489,1002 @@
 [2024-02-14 07:10:32.817] [info]  [GET] https://hub.wowup.io/addons/featured/classic?count=60&recent=30 200 987ms
 [2024-02-14 07:10:34.977] [info]  window config saved
 [2024-02-14 07:10:40.232] [info]  window config saved
+[2024-03-06 07:58:06.810] [info]  Main starting
+[2024-03-06 07:58:06.816] [info]  Electron: 26.2.0
+[2024-03-06 07:58:06.816] [info]  BinaryPath: /tmp/.mount_WowUp-0UQCtu/wowup-cf
+[2024-03-06 07:58:06.816] [info]  ExecPath /tmp/.mount_WowUp-0UQCtu/wowup-cf
+[2024-03-06 07:58:06.817] [info]  Args [ '/tmp/.mount_WowUp-0UQCtu/wowup-cf' ]
+[2024-03-06 07:58:06.817] [info]  Log path: /home/colby/.config/WowUpCf/logs
+[2024-03-06 07:58:06.818] [info]  ARGV { _: [], serve: false, hidden: false }
+[2024-03-06 07:58:06.819] [info]  USER_AGENT WowUp-Client/2.11.0 (Linux; 6.7.7-artix1-1; x64; CF;  +https://wowup.io)
+[2024-03-06 07:58:06.859] [info]  Hardware acceleration enabled
+[2024-03-06 07:58:07.180] [info]  App ready: 362ms
+[2024-03-06 07:58:07.247] [info]  process.versions {
+  node: '18.16.1',
+  acorn: '8.8.2',
+  ada: '1.0.4',
+  ares: '1.19.1',
+  brotli: '1.0.9',
+  cldr: '43.0',
+  icu: '73.1',
+  llhttp: '6.0.11',
+  modules: '116',
+  napi: '8',
+  nghttp2: '1.52.0',
+  openssl: '1.1.1',
+  simdutf: '3.2.2',
+  tz: '2023c',
+  undici: '5.21.0',
+  unicode: '15.0',
+  uv: '1.44.2',
+  uvwasi: '0.0.15',
+  v8: '11.6.189.20-electron.0',
+  zlib: '1.2.13.1-motley',
+  electron: '26.2.0',
+  chrome: '116.0.5845.179'
+}
+[2024-03-06 07:58:07.249] [info]  Loading app URL: 431ms
+[2024-03-06 07:58:07.929] [info]  Checking for update
+[2024-03-06 07:58:07.930] [info]  autoUpdater checking-for-update
+[2024-03-06 07:58:07.976] [info]  window config saved
+[2024-03-06 07:58:08.305] [info]  Platform linux true
+[2024-03-06 07:58:08.307] [info]  [CreateDirectory] '/home/colby/.config/WowUpCf/downloads'
+[2024-03-06 07:58:08.325] [info]  Language setup start
+[2024-03-06 07:58:08.327] [info]  getStartMinimized undefined undefined
+[2024-03-06 07:58:08.354] [info]  Set Language Preference: en
+[2024-03-06 07:58:08.361] [info]  loginItemSettings { __zone_symbol__state: null, __zone_symbol__value: [] }
+[2024-03-06 07:58:08.363] [info]  [GET] ./assets/i18n/en.json 200 8ms
+[2024-03-06 07:58:08.386] [info]  using locale en
+[2024-03-06 07:58:08.391] [error] Failed to search for Lutris library location Error
+    at file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:1328809
+    at Generator.next (<anonymous>)
+    at MK (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737613)
+    at a (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737816)
+    at v.invoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6583)
+    at Object.onInvoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:634704)
+    at v.invoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6523)
+    at L.run (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:1964)
+    at file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:16722
+    at v.invokeTask (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:7201)
+[2024-03-06 07:58:08.392] [error] Failed to search for blizzard products Error: Lutris library not found
+    at file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:1327700
+    at Generator.next (<anonymous>)
+    at MK (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737613)
+    at a (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:737816)
+    at v.invoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6583)
+    at Object.onInvoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/main.f421da7cf63015b0.js:1:634704)
+    at v.invoke (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:6523)
+    at L.run (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:1964)
+    at file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:16722
+    at v.invokeTask (file:///tmp/.mount_WowUp-0UQCtu/resources/app.asar/dist/polyfills.74362bc7c9f71f5d.js:1:7201)
+[2024-03-06 07:58:08.397] [info]  Language setup complete
+[2024-03-06 07:58:08.398] [info]  Cannot import wow installations, no agent path
+[2024-03-06 07:58:08.408] [info]  onAutoUpdateInterval
+[2024-03-06 07:58:08.408] [info]  WowUpProtocolService 
+[2024-03-06 07:58:08.415] [info]  Creating app menu
+[2024-03-06 07:58:08.437] [info]  zoomPref undefined
+[2024-03-06 07:58:08.439] [info]  App menu created true
+[2024-03-06 07:58:08.439] [info]  Creating tray
+[2024-03-06 07:58:08.449] [info]  Tray created true
+[2024-03-06 07:58:08.471] [info]  Set Language Preference: en
+[2024-03-06 07:58:08.556] [info]  Migrating addons
+[2024-03-06 07:58:08.638] [info]  [MigrateInstall] {defaultName} No addons needed to be migrated
+[2024-03-06 07:58:08.639] [info]  [MigrateInstall] {defaultName}
+[2024-03-06 07:58:08.643] [info]  [MigrateInstall] {defaultName} No addons needed to be migrated
+[2024-03-06 07:58:08.646] [info]  [MigrateInstall] {defaultName} No addons needed to be migrated
+[2024-03-06 07:58:08.646] [info]  [MigrateInstall] {defaultName}
+[2024-03-06 07:58:08.651] [info]  [MigrateInstall] {defaultName} No addons needed to be migrated
+[2024-03-06 07:58:08.985] [info]  Checking for addon updates...
+[2024-03-06 07:58:09.038] [warn]  AG Grid: Since v31, 'columnApi.applyColumnState' is deprecated and moved to 'api.applyColumnState'.
+[2024-03-06 07:58:09.075] [info]  getCollapseToTray true
+[2024-03-06 07:58:09.079] [info]  Set Language Preference: en
+[2024-03-06 07:58:09.092] [info]  getStartMinimized undefined undefined
+[2024-03-06 07:58:09.104] [info]  [POST] https://hub.wowup.io/addons/batch 200 660ms
+[2024-03-06 07:58:09.119] [warn]  AG Grid: Since v31, 'columnApi.getColumnState' is deprecated and moved to 'api.getColumnState'.
+[2024-03-06 07:58:09.134] [warn]  AG Grid: setRowData is deprecated. Please use 'api.setGridOption('rowData', newValue)' or 'api.updateGridOptions({ rowData: newValue })' instead.
+[2024-03-06 07:58:09.240] [warn]  AG Grid: Since v31, 'columnApi.autoSizeColumns' is deprecated and moved to 'api.autoSizeColumns'.
+[2024-03-06 07:58:09.448] [info]  Update for version 2.11.0 is not available (latest version: 2.11.0, downgrade is disallowed).
+[2024-03-06 07:58:09.448] [info]  autoUpdater update-not-available {
+  tag: 'v2.11.0',
+  version: '2.11.0',
+  files: [
+    {
+      url: 'WowUp-CF-2.11.0.AppImage',
+      sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+      size: 120553003,
+      blockMapSize: 126527
+    }
+  ],
+  path: 'WowUp-CF-2.11.0.AppImage',
+  sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+  releaseDate: '2024-02-05T17:09:55.424Z',
+  releaseName: '2.11.0',
+  releaseNotes: '<p>Lots of changes</p>'
+}
+[2024-03-06 07:58:09.449] [info]  checkForUpdates {
+  versionInfo: {
+    tag: 'v2.11.0',
+    version: '2.11.0',
+    files: [
+      {
+        url: 'WowUp-CF-2.11.0.AppImage',
+        sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+        size: 120553003,
+        blockMapSize: 126527
+      }
+    ],
+    path: 'WowUp-CF-2.11.0.AppImage',
+    sha512: 'zM+FkgE6M70PHkJVpup2zDbDZZ6q6hYsP+y2eRIk8eOrZ/PVsnyheDAJQjqrO0k7zA60hQojlmXbykvVwpTATw==',
+    releaseDate: '2024-02-05T17:09:55.424Z',
+    releaseName: '2.11.0',
+    releaseNotes: '<p>Lots of changes</p>'
+  }
+}
+[2024-03-06 07:58:09.450] [info]  IPC_APP_UPDATE_STATE app-update-state
+[2024-03-06 07:58:09.451] [info]  { state: 3 }
+[2024-03-06 07:58:09.782] [info]  Checking for addon updates...
+[2024-03-06 07:58:12.686] [info]  [AddonUpdate] WowUpHub 10 WeakAuras '5.10.1' -> '5.11.3'
+[2024-03-06 07:58:12.688] [info]  [AddonUpdate] WowUpHub 47671 Questie v9.4.8 '9.4.1' -> '9.4.8'
+[2024-03-06 07:58:12.689] [info]  [AddonUpdate] Curse 324034 Leatrix Maps (Classic Era) '1.15.18-classic' -> '1.15.21-classic'
+[2024-03-06 07:58:12.691] [info]  [DownloadFile] 'https://github.com/WeakAuras/WeakAuras2/releases/download/5.11.3/WeakAuras-5.11.3.zip' -> '/home/colby/.config/WowUpCf/downloads/BuR0_tMEuQ9K10EHO2C3q-weakauras.zip'
+[2024-03-06 07:58:12.693] [info]  [DownloadFile] 'https://github.com/Questie/Questie/releases/download/v9.4.8/Questie-v9.4.8.zip' -> '/home/colby/.config/WowUpCf/downloads/XxV1Vjctz7NAbnE22ZT-u-questie-v948.zip'
+[2024-03-06 07:58:12.695] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/743/Leatrix_Maps-1.15.21-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/JIRpJtZDT1yFHdNOa6B73-leatrix-maps-classic-era.zip'
+[2024-03-06 07:58:12.932] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/31859273/a3e30971-bc32-4cf2-b2f5-be60e512dd06?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240306T135811Z&X-Amz-Expires=300&X-Amz-Signature=33019b645b2350e22aa9e36894d658e9dbf59df12b8327e221f3d0c6a9c16f0f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=31859273&response-content-disposition=attachment%3B%20filename%3DQuestie-v9.4.8.zip&response-content-type=application%2Foctet-stream
+[2024-03-06 07:58:12.933] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/25056248/f5e4bec2-bbb1-496e-b893-d005ed0578b5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240306T135811Z&X-Amz-Expires=300&X-Amz-Signature=0ecdeb35446ebfec1f0cc5e186d208696d45bbcd3ba4f26db68bfa16f2c8a7e8&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25056248&response-content-disposition=attachment%3B%20filename%3DWeakAuras-5.11.3.zip&response-content-type=application%2Foctet-stream
+[2024-03-06 07:58:12.957] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/743/Leatrix_Maps-1.15.21-classic.zip
+[2024-03-06 07:58:13.194] [debug] Write: [15] 15894
+[2024-03-06 07:58:13.235] [debug] Write: [30] 32260
+[2024-03-06 07:58:13.235] [debug] Write: [0] 11618
+[2024-03-06 07:58:13.241] [debug] Write: [0] 8452
+[2024-03-06 07:58:13.304] [debug] Write: [100] 105366
+[2024-03-06 07:58:13.313] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:58:13.315] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:58:13.323] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps
+[2024-03-06 07:58:13.326] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/JIRpJtZDT1yFHdNOa6B73-leatrix-maps-classic-era.zip
+[2024-03-06 07:58:13.365] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/Xf4j8bNHlyWirj4pT-poC/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps'
+[2024-03-06 07:58:13.372] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:58:13.372] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:58:13.376] [info]  [AddedDirs] Curse 324034 Leatrix Maps (Classic Era) 
+[2024-03-06 07:58:13.400] [info]  [AddonUpdateComplete] Curse 324034 Leatrix Maps (Classic Era) 1.15.21-classic
+[2024-03-06 07:58:13.430] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/Xf4j8bNHlyWirj4pT-poC
+[2024-03-06 07:58:13.438] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/JIRpJtZDT1yFHdNOa6B73-leatrix-maps-classic-era.zip
+[2024-03-06 07:58:13.442] [info]  Install complete Leatrix Maps (Classic Era)
+[2024-03-06 07:58:13.443] [info]  [AddonUpdate] Curse 322362 Leatrix Plus (Classic Era) '1.15.18-classic' -> '1.15.21-classic'
+[2024-03-06 07:58:13.444] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/744/Leatrix_Plus-1.15.21-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/Eew57XuJH8IcCq_vGRKeR-leatrix-plus-classic-era.zip'
+[2024-03-06 07:58:13.470] [debug] Write: [5] 432854
+[2024-03-06 07:58:13.526] [debug] Write: [5] 1244332
+[2024-03-06 07:58:13.526] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/744/Leatrix_Plus-1.15.21-classic.zip
+[2024-03-06 07:58:13.575] [debug] Write: [10] 842445
+[2024-03-06 07:58:13.590] [debug] Write: [5] 32260
+[2024-03-06 07:58:13.754] [debug] Write: [45] 260441
+[2024-03-06 07:58:13.762] [debug] Write: [15] 1252108
+[2024-03-06 07:58:13.817] [debug] Write: [10] 2505927
+[2024-03-06 07:58:13.953] [debug] Write: [65] 375075
+[2024-03-06 07:58:13.979] [debug] Write: [100] 570099
+[2024-03-06 07:58:13.988] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:58:13.989] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:58:14.023] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus
+[2024-03-06 07:58:14.025] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/Eew57XuJH8IcCq_vGRKeR-leatrix-plus-classic-era.zip
+[2024-03-06 07:58:14.061] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/xwwRUu41In85AhkRuoxZy/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus'
+[2024-03-06 07:58:14.068] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:58:14.068] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:58:14.070] [info]  [AddedDirs] Curse 322362 Leatrix Plus (Classic Era) 
+[2024-03-06 07:58:14.098] [info]  [AddonUpdateComplete] Curse 322362 Leatrix Plus (Classic Era) 1.15.21-classic
+[2024-03-06 07:58:14.125] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/xwwRUu41In85AhkRuoxZy
+[2024-03-06 07:58:14.132] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/Eew57XuJH8IcCq_vGRKeR-leatrix-plus-classic-era.zip
+[2024-03-06 07:58:14.135] [info]  Install complete Leatrix Plus (Classic Era)
+[2024-03-06 07:58:14.135] [info]  [AddonUpdate] Curse 4646 Pawn '2.8.9 (Classic)' -> '2.8.10 (Classic)'
+[2024-03-06 07:58:14.136] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5133/396/Pawn-2.8.10-Classic.zip' -> '/home/colby/.config/WowUpCf/downloads/8qX6CXXCGgT4LKbdFqF_w-pawn.zip'
+[2024-03-06 07:58:14.208] [debug] Write: [20] 1678038
+[2024-03-06 07:58:14.228] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5133/396/Pawn-2.8.10-Classic.zip
+[2024-03-06 07:58:14.375] [debug] Write: [5] 38182
+[2024-03-06 07:58:14.564] [debug] Write: [40] 293235
+[2024-03-06 07:58:14.564] [debug] Write: [50] 367119
+[2024-03-06 07:58:14.589] [debug] Write: [55] 402655
+[2024-03-06 07:58:14.599] [debug] Write: [60] 438304
+[2024-03-06 07:58:14.611] [debug] Write: [65] 475408
+[2024-03-06 07:58:14.624] [debug] Write: [70] 512517
+[2024-03-06 07:58:14.639] [debug] Write: [75] 552482
+[2024-03-06 07:58:14.651] [debug] Write: [80] 583892
+[2024-03-06 07:58:14.657] [debug] Write: [85] 621003
+[2024-03-06 07:58:14.667] [debug] Write: [90] 659535
+[2024-03-06 07:58:14.678] [debug] Write: [95] 698079
+[2024-03-06 07:58:14.684] [debug] Write: [100] 729781
+[2024-03-06 07:58:14.695] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn-bak'
+[2024-03-06 07:58:14.697] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn-bak'
+[2024-03-06 07:58:14.778] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn
+[2024-03-06 07:58:14.781] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/8qX6CXXCGgT4LKbdFqF_w-pawn.zip
+[2024-03-06 07:58:14.835] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/v9toIOLh1asx06tiryCu5/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn'
+[2024-03-06 07:58:14.850] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn-bak
+[2024-03-06 07:58:14.850] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Pawn-bak
+[2024-03-06 07:58:14.853] [info]  [AddedDirs] Curse 4646 Pawn 
+[2024-03-06 07:58:14.885] [info]  [AddonUpdateComplete] Curse 4646 Pawn 2.8.10 (Classic)
+[2024-03-06 07:58:14.914] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/v9toIOLh1asx06tiryCu5
+[2024-03-06 07:58:14.923] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/8qX6CXXCGgT4LKbdFqF_w-pawn.zip
+[2024-03-06 07:58:14.924] [info]  Install complete Pawn
+[2024-03-06 07:58:14.924] [info]  [AddonUpdate] Curse 6124 Auctionator '10.2.24-classic' -> '10.2.27-classic'
+[2024-03-06 07:58:14.927] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5153/387/Auctionator-10.2.27-classic.zip' -> '/home/colby/.config/WowUpCf/downloads/onNdVU4Sa4ndDACJzyR-p-auctionator.zip'
+[2024-03-06 07:58:14.964] [debug] Write: [15] 3705358
+[2024-03-06 07:58:15.049] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5153/387/Auctionator-10.2.27-classic.zip
+[2024-03-06 07:58:15.160] [debug] Write: [5] 41012
+[2024-03-06 07:58:15.165] [debug] Write: [10] 78140
+[2024-03-06 07:58:15.176] [debug] Write: [15] 120980
+[2024-03-06 07:58:15.185] [debug] Write: [20] 155247
+[2024-03-06 07:58:15.192] [debug] Write: [25] 195215
+[2024-03-06 07:58:15.200] [debug] Write: [30] 235171
+[2024-03-06 07:58:15.213] [debug] Write: [40] 309370
+[2024-03-06 07:58:15.218] [debug] Write: [45] 349302
+[2024-03-06 07:58:15.236] [debug] Write: [60] 469170
+[2024-03-06 07:58:15.240] [debug] Write: [65] 503418
+[2024-03-06 07:58:15.245] [debug] Write: [70] 543366
+[2024-03-06 07:58:15.252] [debug] Write: [75] 583310
+[2024-03-06 07:58:15.257] [debug] Write: [80] 617540
+[2024-03-06 07:58:15.264] [debug] Write: [85] 663190
+[2024-03-06 07:58:15.270] [debug] Write: [90] 695987
+[2024-03-06 07:58:15.275] [debug] Write: [95] 733070
+[2024-03-06 07:58:15.282] [debug] Write: [100] 771153
+[2024-03-06 07:58:15.285] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator-bak'
+[2024-03-06 07:58:15.286] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator-bak'
+[2024-03-06 07:58:15.569] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator
+[2024-03-06 07:58:15.585] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/onNdVU4Sa4ndDACJzyR-p-auctionator.zip
+[2024-03-06 07:58:15.949] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/EMAaewu6Xko7PUIvkEJAh/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator'
+[2024-03-06 07:58:16.063] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator-bak
+[2024-03-06 07:58:16.064] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Auctionator-bak
+[2024-03-06 07:58:16.080] [info]  [AddedDirs] Curse 6124 Auctionator 
+[2024-03-06 07:58:16.113] [debug] Write: [25] 2087629
+[2024-03-06 07:58:16.116] [info]  [AddonUpdateComplete] Curse 6124 Auctionator 10.2.27-classic
+[2024-03-06 07:58:16.144] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/EMAaewu6Xko7PUIvkEJAh
+[2024-03-06 07:58:16.158] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/onNdVU4Sa4ndDACJzyR-p-auctionator.zip
+[2024-03-06 07:58:16.159] [info]  Install complete Auctionator
+[2024-03-06 07:58:16.159] [info]  [AddonUpdate] Curse 1592 Bagnon '10.2.19' -> '10.2.20'
+[2024-03-06 07:58:16.160] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5155/539/Bagnon-10.2.20.zip' -> '/home/colby/.config/WowUpCf/downloads/0fixde6w5z7aY1m2UmEwB-bagnon.zip'
+[2024-03-06 07:58:16.292] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5155/539/Bagnon-10.2.20.zip
+[2024-03-06 07:58:16.411] [debug] Write: [15] 43117
+[2024-03-06 07:58:16.418] [debug] Write: [25] 71677
+[2024-03-06 07:58:16.419] [debug] Write: [30] 85957
+[2024-03-06 07:58:16.419] [debug] Write: [35] 97381
+[2024-03-06 07:58:16.420] [debug] Write: [40] 111661
+[2024-03-06 07:58:16.422] [debug] Write: [45] 125941
+[2024-03-06 07:58:16.423] [debug] Write: [50] 140221
+[2024-03-06 07:58:16.433] [debug] Write: [75] 210161
+[2024-03-06 07:58:16.445] [debug] Write: [100] 277735
+[2024-03-06 07:58:16.449] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother-bak'
+[2024-03-06 07:58:16.450] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother-bak'
+[2024-03-06 07:58:16.518] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother
+[2024-03-06 07:58:16.524] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon-bak'
+[2024-03-06 07:58:16.525] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon-bak'
+[2024-03-06 07:58:16.530] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon
+[2024-03-06 07:58:16.532] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config-bak'
+[2024-03-06 07:58:16.532] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config-bak'
+[2024-03-06 07:58:16.534] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config
+[2024-03-06 07:58:16.535] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank-bak'
+[2024-03-06 07:58:16.535] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank-bak'
+[2024-03-06 07:58:16.537] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank
+[2024-03-06 07:58:16.538] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage-bak'
+[2024-03-06 07:58:16.539] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage-bak'
+[2024-03-06 07:58:16.539] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage
+[2024-03-06 07:58:16.541] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/0fixde6w5z7aY1m2UmEwB-bagnon.zip
+[2024-03-06 07:58:16.642] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother'
+[2024-03-06 07:58:16.676] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon'
+[2024-03-06 07:58:16.680] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config'
+[2024-03-06 07:58:16.681] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank'
+[2024-03-06 07:58:16.682] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage'
+[2024-03-06 07:58:16.683] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother-bak
+[2024-03-06 07:58:16.683] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/BagBrother-bak
+[2024-03-06 07:58:16.683] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon-bak
+[2024-03-06 07:58:16.683] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon-bak
+[2024-03-06 07:58:16.684] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config-bak
+[2024-03-06 07:58:16.684] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_Config-bak
+[2024-03-06 07:58:16.684] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank-bak
+[2024-03-06 07:58:16.684] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_GuildBank-bak
+[2024-03-06 07:58:16.684] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage-bak
+[2024-03-06 07:58:16.685] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Bagnon_VoidStorage-bak
+[2024-03-06 07:58:16.691] [info]  [AddedDirs] Curse 1592 Bagnon 
+[2024-03-06 07:58:16.724] [info]  [AddonUpdateComplete] Curse 1592 Bagnon 10.2.20
+[2024-03-06 07:58:16.750] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/jD8nR8UxW731nNqWp8iIa
+[2024-03-06 07:58:16.760] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/0fixde6w5z7aY1m2UmEwB-bagnon.zip
+[2024-03-06 07:58:16.761] [info]  Install complete Bagnon
+[2024-03-06 07:58:17.888] [debug] Write: [30] 2497184
+[2024-03-06 07:58:18.125] [debug] Write: [20] 4934167
+[2024-03-06 07:58:19.051] [debug] Write: [35] 2923222
+[2024-03-06 07:58:19.909] [debug] Write: [25] 6162976
+[2024-03-06 07:58:20.522] [debug] Write: [40] 3332813
+[2024-03-06 07:58:21.334] [debug] Write: [45] 3742368
+[2024-03-06 07:58:21.395] [debug] Write: [30] 7391749
+[2024-03-06 07:58:22.017] [debug] Write: [50] 4168406
+[2024-03-06 07:58:22.307] [debug] Write: [35] 8620558
+[2024-03-06 07:58:22.530] [debug] Write: [55] 4577997
+[2024-03-06 07:58:22.965] [debug] Write: [60] 4987552
+[2024-03-06 07:58:23.001] [debug] Write: [40] 9865742
+[2024-03-06 07:58:23.411] [debug] Write: [65] 5413590
+[2024-03-06 07:58:23.632] [debug] Write: [45] 11094551
+[2024-03-06 07:58:23.822] [debug] Write: [70] 5823181
+[2024-03-06 07:58:24.209] [debug] Write: [50] 12323360
+[2024-03-06 07:58:24.239] [debug] Write: [75] 6249183
+[2024-03-06 07:58:24.600] [debug] Write: [80] 6658774
+[2024-03-06 07:58:24.786] [debug] Write: [55] 13552133
+[2024-03-06 07:58:24.981] [debug] Write: [85] 7068365
+[2024-03-06 07:58:25.483] [debug] Write: [60] 14780942
+[2024-03-06 07:58:25.554] [debug] Write: [90] 7494367
+[2024-03-06 07:58:26.308] [debug] Write: [95] 7903958
+[2024-03-06 07:58:26.598] [debug] Write: [65] 16009751
+[2024-03-06 07:58:27.087] [debug] Write: [100] 8310934
+[2024-03-06 07:58:27.095] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras-bak'
+[2024-03-06 07:58:27.096] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras-bak'
+[2024-03-06 07:58:27.756] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras
+[2024-03-06 07:58:27.771] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive-bak'
+[2024-03-06 07:58:27.772] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive-bak'
+[2024-03-06 07:58:27.775] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive
+[2024-03-06 07:58:27.777] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths-bak'
+[2024-03-06 07:58:27.777] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths-bak'
+[2024-03-06 07:58:27.889] [debug] Write: [70] 17254935
+[2024-03-06 07:58:27.907] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths
+[2024-03-06 07:58:27.910] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions-bak'
+[2024-03-06 07:58:27.911] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions-bak'
+[2024-03-06 07:58:27.995] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions
+[2024-03-06 07:58:27.999] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates-bak'
+[2024-03-06 07:58:28.000] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates-bak'
+[2024-03-06 07:58:28.028] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates
+[2024-03-06 07:58:28.032] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/BuR0_tMEuQ9K10EHO2C3q-weakauras.zip
+[2024-03-06 07:58:28.584] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras'
+[2024-03-06 07:58:28.754] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive'
+[2024-03-06 07:58:28.756] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths'
+[2024-03-06 07:58:28.803] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions'
+[2024-03-06 07:58:28.833] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates'
+[2024-03-06 07:58:28.839] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras-bak
+[2024-03-06 07:58:28.840] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAuras-bak
+[2024-03-06 07:58:28.840] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive-bak
+[2024-03-06 07:58:28.840] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasArchive-bak
+[2024-03-06 07:58:28.840] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths-bak
+[2024-03-06 07:58:28.840] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasModelPaths-bak
+[2024-03-06 07:58:28.841] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions-bak
+[2024-03-06 07:58:28.841] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasOptions-bak
+[2024-03-06 07:58:28.841] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates-bak
+[2024-03-06 07:58:28.841] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/WeakAurasTemplates-bak
+[2024-03-06 07:58:28.865] [info]  [AddedDirs] WowUpHub 10 WeakAuras 
+[2024-03-06 07:58:28.905] [info]  [AddonUpdateComplete] WowUpHub 10 WeakAuras 5.11.3
+[2024-03-06 07:58:28.942] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/lq45hW7qp_8XMhfHxSsnI
+[2024-03-06 07:58:28.966] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/BuR0_tMEuQ9K10EHO2C3q-weakauras.zip
+[2024-03-06 07:58:28.970] [info]  Install complete WeakAuras
+[2024-03-06 07:58:29.290] [debug] Write: [75] 18483744
+[2024-03-06 07:58:30.686] [debug] Write: [80] 19712517
+[2024-03-06 07:58:31.765] [debug] Write: [85] 20941326
+[2024-03-06 07:58:32.485] [debug] Write: [90] 22170135
+[2024-03-06 07:58:32.937] [debug] Write: [95] 23398944
+[2024-03-06 07:58:33.331] [debug] Write: [100] 24629634
+[2024-03-06 07:58:33.341] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie-bak'
+[2024-03-06 07:58:33.342] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie-bak'
+[2024-03-06 07:58:34.548] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie
+[2024-03-06 07:58:34.564] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/XxV1Vjctz7NAbnE22ZT-u-questie-v948.zip
+[2024-03-06 07:58:35.502] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/ND4YSekWPJv2nSjNvr6kt/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie'
+[2024-03-06 07:58:35.934] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie-bak
+[2024-03-06 07:58:35.934] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/Interface/AddOns/Questie-bak
+[2024-03-06 07:58:35.949] [info]  [AddedDirs] WowUpHub 47671 Questie v9.4.8 
+[2024-03-06 07:58:35.982] [info]  [AddonUpdateComplete] WowUpHub 47671 Questie v9.4.8 9.4.8
+[2024-03-06 07:58:36.027] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/ND4YSekWPJv2nSjNvr6kt
+[2024-03-06 07:58:36.048] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/XxV1Vjctz7NAbnE22ZT-u-questie-v948.zip
+[2024-03-06 07:58:36.055] [info]  Install complete Questie v9.4.8
+[2024-03-06 07:58:39.140] [info]  Setting wow installations: 2
+[2024-03-06 07:58:40.393] [info]  [AddonUpdate] WowUpHub 10 WeakAuras '5.10.1' -> '5.11.3'
+[2024-03-06 07:58:40.394] [info]  [AddonUpdate] WowUpHub 47671 Questie v9.4.8 '9.4.1' -> '9.4.8'
+[2024-03-06 07:58:40.396] [info]  [AddonUpdate] Curse 463863 Leatrix Plus (Wrath of the Lich King Classic) '3.0.179-wrath' -> '3.0.183-wrath'
+[2024-03-06 07:58:40.397] [info]  [DownloadFile] 'https://github.com/Questie/Questie/releases/download/v9.4.8/Questie-v9.4.8.zip' -> '/home/colby/.config/WowUpCf/downloads/JJ8Ml3C2P-zj5nVuBiz3J-questie-v948.zip'
+[2024-03-06 07:58:40.399] [info]  [DownloadFile] 'https://github.com/WeakAuras/WeakAuras2/releases/download/5.11.3/WeakAuras-5.11.3.zip' -> '/home/colby/.config/WowUpCf/downloads/DVIW7NMCOlFxFkzW9ce-Z-weakauras.zip'
+[2024-03-06 07:58:40.399] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/801/Leatrix_Plus-3.0.183-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/8yRaM4MDeylKm5yueLlj3-leatrix-plus-wrath-of-the-lich-king-classic.zip'
+[2024-03-06 07:58:40.451] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/31859273/a3e30971-bc32-4cf2-b2f5-be60e512dd06?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240306T135811Z&X-Amz-Expires=300&X-Amz-Signature=33019b645b2350e22aa9e36894d658e9dbf59df12b8327e221f3d0c6a9c16f0f&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=31859273&response-content-disposition=attachment%3B%20filename%3DQuestie-v9.4.8.zip&response-content-type=application%2Foctet-stream
+[2024-03-06 07:58:40.452] [info]  [download] caught redirect 302 https://objects.githubusercontent.com/github-production-release-asset-2e65be/25056248/f5e4bec2-bbb1-496e-b893-d005ed0578b5?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240306%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240306T135811Z&X-Amz-Expires=300&X-Amz-Signature=0ecdeb35446ebfec1f0cc5e186d208696d45bbcd3ba4f26db68bfa16f2c8a7e8&X-Amz-SignedHeaders=host&actor_id=0&key_id=0&repo_id=25056248&response-content-disposition=attachment%3B%20filename%3DWeakAuras-5.11.3.zip&response-content-type=application%2Foctet-stream
+[2024-03-06 07:58:40.467] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/801/Leatrix_Plus-3.0.183-wrath.zip
+[2024-03-06 07:58:40.507] [debug] Write: [5] 38148
+[2024-03-06 07:58:40.510] [debug] Write: [10] 68126
+[2024-03-06 07:58:40.514] [debug] Write: [15] 103816
+[2024-03-06 07:58:40.525] [debug] Write: [25] 168063
+[2024-03-06 07:58:40.528] [debug] Write: [30] 203745
+[2024-03-06 07:58:40.533] [debug] Write: [35] 235128
+[2024-03-06 07:58:40.538] [debug] Write: [40] 275079
+[2024-03-06 07:58:40.543] [debug] Write: [45] 303613
+[2024-03-06 07:58:40.547] [debug] Write: [50] 336423
+[2024-03-06 07:58:40.553] [debug] Write: [55] 374941
+[2024-03-06 07:58:40.557] [debug] Write: [60] 403464
+[2024-03-06 07:58:40.569] [debug] Write: [75] 509028
+[2024-03-06 07:58:40.572] [debug] Write: [80] 537556
+[2024-03-06 07:58:40.574] [debug] Write: [90] 604620
+[2024-03-06 07:58:40.576] [debug] Write: [95] 637436
+[2024-03-06 07:58:40.579] [debug] Write: [100] 670930
+[2024-03-06 07:58:40.582] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:58:40.584] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:58:40.598] [debug] Write: [15] 1310720
+[2024-03-06 07:58:40.602] [debug] Write: [25] 2097152
+[2024-03-06 07:58:40.605] [debug] Write: [50] 4194304
+[2024-03-06 07:58:40.608] [debug] Write: [25] 6291456
+[2024-03-06 07:58:40.613] [debug] Write: [75] 6291456
+[2024-03-06 07:58:40.614] [debug] Write: [100] 8310934
+[2024-03-06 07:58:40.615] [debug] Write: [40] 9961472
+[2024-03-06 07:58:40.623] [debug] Write: [55] 13565952
+[2024-03-06 07:58:40.625] [debug] Write: [70] 17301504
+[2024-03-06 07:58:40.630] [debug] Write: [85] 20971520
+[2024-03-06 07:58:40.632] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras-bak'
+[2024-03-06 07:58:40.634] [debug] Write: [100] 24629634
+[2024-03-06 07:58:40.635] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras-bak'
+[2024-03-06 07:58:40.636] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie-bak'
+[2024-03-06 07:58:40.637] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie-bak'
+[2024-03-06 07:58:40.859] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus
+[2024-03-06 07:58:40.863] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/8yRaM4MDeylKm5yueLlj3-leatrix-plus-wrath-of-the-lich-king-classic.zip
+[2024-03-06 07:58:40.912] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/IEqtehzkBo21iYzzo9n6c/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus'
+[2024-03-06 07:58:41.016] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:58:41.017] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:58:41.020] [info]  [AddedDirs] Curse 463863 Leatrix Plus (Wrath of the Lich King Classic) 
+[2024-03-06 07:58:41.131] [info]  [AddonUpdateComplete] Curse 463863 Leatrix Plus (Wrath of the Lich King Classic) 3.0.183-wrath
+[2024-03-06 07:58:41.178] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/IEqtehzkBo21iYzzo9n6c
+[2024-03-06 07:58:41.191] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/8yRaM4MDeylKm5yueLlj3-leatrix-plus-wrath-of-the-lich-king-classic.zip
+[2024-03-06 07:58:41.196] [info]  Install complete Leatrix Plus (Wrath of the Lich King Classic)
+[2024-03-06 07:58:41.197] [info]  [AddonUpdate] Curse 463868 Leatrix Maps (Wrath of the Lich King Classic) '3.0.179-wrath' -> '3.0.183-wrath'
+[2024-03-06 07:58:41.198] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/800/Leatrix_Maps-3.0.183-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/J2y8LLbwjTpVxSI52UUBz-leatrix-maps-wrath-of-the-lich-king-classic.zip'
+[2024-03-06 07:58:41.269] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/800/Leatrix_Maps-3.0.183-wrath.zip
+[2024-03-06 07:58:41.312] [debug] Write: [20] 29580
+[2024-03-06 07:58:41.312] [debug] Write: [25] 36715
+[2024-03-06 07:58:41.314] [debug] Write: [40] 58132
+[2024-03-06 07:58:41.318] [debug] Write: [60] 86680
+[2024-03-06 07:58:41.319] [debug] Write: [80] 115229
+[2024-03-06 07:58:41.323] [debug] Write: [100] 142672
+[2024-03-06 07:58:41.328] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:58:41.330] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:58:41.468] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps
+[2024-03-06 07:58:41.471] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/J2y8LLbwjTpVxSI52UUBz-leatrix-maps-wrath-of-the-lich-king-classic.zip
+[2024-03-06 07:58:41.492] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/LtIK7g_DfGu3UT6tJ8JsV/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps'
+[2024-03-06 07:58:41.630] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:58:41.630] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:58:41.633] [info]  [AddedDirs] Curse 463868 Leatrix Maps (Wrath of the Lich King Classic) 
+[2024-03-06 07:58:41.730] [info]  [AddonUpdateComplete] Curse 463868 Leatrix Maps (Wrath of the Lich King Classic) 3.0.183-wrath
+[2024-03-06 07:58:41.759] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/LtIK7g_DfGu3UT6tJ8JsV
+[2024-03-06 07:58:41.764] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/J2y8LLbwjTpVxSI52UUBz-leatrix-maps-wrath-of-the-lich-king-classic.zip
+[2024-03-06 07:58:41.766] [info]  Install complete Leatrix Maps (Wrath of the Lich King Classic)
+[2024-03-06 07:58:41.767] [info]  [AddonUpdate] Curse 6124 Auctionator '10.2.24-wrath' -> '10.2.27-wrath'
+[2024-03-06 07:58:41.768] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5153/386/Auctionator-10.2.27-wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/g8HSs9YPDIttE-IHcTqkG-auctionator.zip'
+[2024-03-06 07:58:41.848] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5153/386/Auctionator-10.2.27-wrath.zip
+[2024-03-06 07:58:41.976] [debug] Write: [5] 44334
+[2024-03-06 07:58:41.990] [debug] Write: [40] 310762
+[2024-03-06 07:58:41.991] [debug] Write: [50] 385457
+[2024-03-06 07:58:42.000] [debug] Write: [60] 463937
+[2024-03-06 07:58:42.002] [debug] Write: [65] 498185
+[2024-03-06 07:58:42.004] [debug] Write: [70] 535282
+[2024-03-06 07:58:42.008] [debug] Write: [75] 576659
+[2024-03-06 07:58:42.011] [debug] Write: [80] 612328
+[2024-03-06 07:58:42.013] [debug] Write: [85] 655133
+[2024-03-06 07:58:42.015] [debug] Write: [95] 732173
+[2024-03-06 07:58:42.017] [debug] Write: [100] 763674
+[2024-03-06 07:58:42.020] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator-bak'
+[2024-03-06 07:58:42.021] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator-bak'
+[2024-03-06 07:58:44.791] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator
+[2024-03-06 07:58:44.815] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/g8HSs9YPDIttE-IHcTqkG-auctionator.zip
+[2024-03-06 07:58:45.066] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/yWaGgVK25IMQPJkxTtfgW/Auctionator' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator'
+[2024-03-06 07:58:45.283] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie
+[2024-03-06 07:58:45.301] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/JJ8Ml3C2P-zj5nVuBiz3J-questie-v948.zip
+[2024-03-06 07:58:45.404] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator-bak
+[2024-03-06 07:58:45.405] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Auctionator-bak
+[2024-03-06 07:58:45.419] [info]  [AddedDirs] Curse 6124 Auctionator 
+[2024-03-06 07:58:45.466] [info]  [AddonUpdateComplete] Curse 6124 Auctionator 10.2.27-wrath
+[2024-03-06 07:58:45.495] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/yWaGgVK25IMQPJkxTtfgW
+[2024-03-06 07:58:45.514] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/g8HSs9YPDIttE-IHcTqkG-auctionator.zip
+[2024-03-06 07:58:45.515] [info]  Install complete Auctionator
+[2024-03-06 07:58:45.515] [info]  [AddonUpdate] Curse 4646 Pawn '2.8.9 (Wrath)' -> '2.8.10 (Wrath)'
+[2024-03-06 07:58:45.516] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5133/397/Pawn-2.8.10-Wrath.zip' -> '/home/colby/.config/WowUpCf/downloads/rkbssAMj49OFrfg2fR6Hp-pawn.zip'
+[2024-03-06 07:58:45.554] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras
+[2024-03-06 07:58:45.565] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5133/397/Pawn-2.8.10-Wrath.zip
+[2024-03-06 07:58:45.574] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive-bak'
+[2024-03-06 07:58:45.575] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive-bak'
+[2024-03-06 07:58:45.577] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive
+[2024-03-06 07:58:45.579] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths-bak'
+[2024-03-06 07:58:45.580] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths-bak'
+[2024-03-06 07:58:45.670] [debug] Write: [5] 36736
+[2024-03-06 07:58:45.673] [debug] Write: [10] 76720
+[2024-03-06 07:58:45.682] [debug] Write: [25] 183813
+[2024-03-06 07:58:45.684] [debug] Write: [30] 219488
+[2024-03-06 07:58:45.691] [debug] Write: [40] 292260
+[2024-03-06 07:58:45.694] [debug] Write: [45] 333643
+[2024-03-06 07:58:45.718] [debug] Write: [80] 590449
+[2024-03-06 07:58:45.730] [debug] Write: [100] 729781
+[2024-03-06 07:58:45.743] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn-bak'
+[2024-03-06 07:58:45.744] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn-bak'
+[2024-03-06 07:58:45.782] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths
+[2024-03-06 07:58:45.786] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions-bak'
+[2024-03-06 07:58:45.786] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions-bak'
+[2024-03-06 07:58:45.802] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn
+[2024-03-06 07:58:45.805] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/rkbssAMj49OFrfg2fR6Hp-pawn.zip
+[2024-03-06 07:58:45.867] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-Cr0JY5vnzK4m9lNOqJjy/Pawn' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn'
+[2024-03-06 07:58:45.927] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn-bak
+[2024-03-06 07:58:45.928] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Pawn-bak
+[2024-03-06 07:58:45.930] [info]  [AddedDirs] Curse 4646 Pawn 
+[2024-03-06 07:58:45.957] [info]  [AddonUpdateComplete] Curse 4646 Pawn 2.8.10 (Wrath)
+[2024-03-06 07:58:46.008] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/-Cr0JY5vnzK4m9lNOqJjy
+[2024-03-06 07:58:46.011] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions
+[2024-03-06 07:58:46.022] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/rkbssAMj49OFrfg2fR6Hp-pawn.zip
+[2024-03-06 07:58:46.026] [info]  Install complete Pawn
+[2024-03-06 07:58:46.027] [info]  [AddonUpdate] Curse 1592 Bagnon '10.2.19' -> '10.2.20'
+[2024-03-06 07:58:46.029] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5155/539/Bagnon-10.2.20.zip' -> '/home/colby/.config/WowUpCf/downloads/4gcL9BDo6fzgfsKG30pKC-bagnon.zip'
+[2024-03-06 07:58:46.031] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates-bak'
+[2024-03-06 07:58:46.034] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates-bak'
+[2024-03-06 07:58:46.062] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates
+[2024-03-06 07:58:46.064] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/DVIW7NMCOlFxFkzW9ce-Z-weakauras.zip
+[2024-03-06 07:58:46.079] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5155/539/Bagnon-10.2.20.zip
+[2024-03-06 07:58:46.082] [debug] Write: [100] 277735
+[2024-03-06 07:58:46.088] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother-bak'
+[2024-03-06 07:58:46.090] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother-bak'
+[2024-03-06 07:58:46.198] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother
+[2024-03-06 07:58:46.205] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon-bak'
+[2024-03-06 07:58:46.229] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon-bak'
+[2024-03-06 07:58:46.238] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon
+[2024-03-06 07:58:46.241] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config-bak'
+[2024-03-06 07:58:46.243] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config-bak'
+[2024-03-06 07:58:46.246] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config
+[2024-03-06 07:58:46.252] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank-bak'
+[2024-03-06 07:58:46.253] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank-bak'
+[2024-03-06 07:58:46.256] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank
+[2024-03-06 07:58:46.259] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage-bak'
+[2024-03-06 07:58:46.260] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage-bak'
+[2024-03-06 07:58:46.261] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage
+[2024-03-06 07:58:46.263] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/4gcL9BDo6fzgfsKG30pKC-bagnon.zip
+[2024-03-06 07:58:46.482] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7/BagBrother' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother'
+[2024-03-06 07:58:46.555] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7/Bagnon' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon'
+[2024-03-06 07:58:46.560] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7/Bagnon_Config' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config'
+[2024-03-06 07:58:46.561] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7/Bagnon_GuildBank' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank'
+[2024-03-06 07:58:46.563] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7/Bagnon_VoidStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage'
+[2024-03-06 07:58:46.565] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother-bak
+[2024-03-06 07:58:46.565] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/BagBrother-bak
+[2024-03-06 07:58:46.565] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon-bak
+[2024-03-06 07:58:46.565] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon-bak
+[2024-03-06 07:58:46.566] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config-bak
+[2024-03-06 07:58:46.566] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_Config-bak
+[2024-03-06 07:58:46.566] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank-bak
+[2024-03-06 07:58:46.566] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_GuildBank-bak
+[2024-03-06 07:58:46.566] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage-bak
+[2024-03-06 07:58:46.566] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Bagnon_VoidStorage-bak
+[2024-03-06 07:58:46.574] [info]  [AddedDirs] Curse 1592 Bagnon 
+[2024-03-06 07:58:46.605] [info]  [AddonUpdateComplete] Curse 1592 Bagnon 10.2.20
+[2024-03-06 07:58:46.632] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/lZmME1VkpagttSZ7-6QX7
+[2024-03-06 07:58:46.643] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/4gcL9BDo6fzgfsKG30pKC-bagnon.zip
+[2024-03-06 07:58:46.644] [info]  Install complete Bagnon
+[2024-03-06 07:58:46.644] [info]  [AddonUpdate] Curse 287692 Simple Item Levels 'v33.3' -> 'v33.4'
+[2024-03-06 07:58:46.645] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5136/779/SimpleItemLevel-v33.4.zip' -> '/home/colby/.config/WowUpCf/downloads/HYeLDYYIS2-Tlm_09LZk0-simple-item-levels.zip'
+[2024-03-06 07:58:46.670] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/5_y7JuHhhWuwRJlpDXUpx/Questie' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie'
+[2024-03-06 07:58:46.735] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5136/779/SimpleItemLevel-v33.4.zip
+[2024-03-06 07:58:46.788] [debug] Write: [100] 21607
+[2024-03-06 07:58:46.793] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel-bak'
+[2024-03-06 07:58:46.794] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel-bak'
+[2024-03-06 07:58:46.862] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel
+[2024-03-06 07:58:46.866] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/HYeLDYYIS2-Tlm_09LZk0-simple-item-levels.zip
+[2024-03-06 07:58:46.882] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/--LnYec9OWvnM8LD981Ug/SimpleItemLevel' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel'
+[2024-03-06 07:58:46.900] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel-bak
+[2024-03-06 07:58:46.900] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/SimpleItemLevel-bak
+[2024-03-06 07:58:46.902] [info]  [AddedDirs] Curse 287692 Simple Item Levels 
+[2024-03-06 07:58:46.972] [info]  [AddonUpdateComplete] Curse 287692 Simple Item Levels v33.4
+[2024-03-06 07:58:46.999] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/--LnYec9OWvnM8LD981Ug
+[2024-03-06 07:58:47.007] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM/WeakAuras' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras'
+[2024-03-06 07:58:47.007] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/HYeLDYYIS2-Tlm_09LZk0-simple-item-levels.zip
+[2024-03-06 07:58:47.008] [info]  Install complete Simple Item Levels
+[2024-03-06 07:58:47.197] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie-bak
+[2024-03-06 07:58:47.197] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/Questie-bak
+[2024-03-06 07:58:47.225] [info]  [AddedDirs] WowUpHub 47671 Questie v9.4.8 
+[2024-03-06 07:58:47.252] [info]  [AddonUpdateComplete] WowUpHub 47671 Questie v9.4.8 9.4.8
+[2024-03-06 07:58:47.275] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/5_y7JuHhhWuwRJlpDXUpx
+[2024-03-06 07:58:47.291] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/JJ8Ml3C2P-zj5nVuBiz3J-questie-v948.zip
+[2024-03-06 07:58:47.298] [info]  Install complete Questie v9.4.8
+[2024-03-06 07:58:47.343] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM/WeakAurasArchive' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive'
+[2024-03-06 07:58:47.345] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM/WeakAurasModelPaths' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths'
+[2024-03-06 07:58:47.393] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM/WeakAurasOptions' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions'
+[2024-03-06 07:58:47.418] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM/WeakAurasTemplates' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates'
+[2024-03-06 07:58:47.423] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras-bak
+[2024-03-06 07:58:47.423] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAuras-bak
+[2024-03-06 07:58:47.424] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive-bak
+[2024-03-06 07:58:47.424] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasArchive-bak
+[2024-03-06 07:58:47.424] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths-bak
+[2024-03-06 07:58:47.424] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasModelPaths-bak
+[2024-03-06 07:58:47.424] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions-bak
+[2024-03-06 07:58:47.424] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasOptions-bak
+[2024-03-06 07:58:47.425] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates-bak
+[2024-03-06 07:58:47.425] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/Interface/AddOns/WeakAurasTemplates-bak
+[2024-03-06 07:58:47.439] [info]  [AddedDirs] WowUpHub 10 WeakAuras 
+[2024-03-06 07:58:47.474] [info]  [AddonUpdateComplete] WowUpHub 10 WeakAuras 5.11.3
+[2024-03-06 07:58:47.509] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/1OKPwEa-Oo-JeGm-kSAiM
+[2024-03-06 07:58:47.524] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/DVIW7NMCOlFxFkzW9ce-Z-weakauras.zip
+[2024-03-06 07:58:47.527] [info]  Install complete WeakAuras
+[2024-03-06 07:59:09.793] [info]  dialogResult /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe
+[2024-03-06 07:59:09.798] [info]  isWowApplication true
+[2024-03-06 07:59:09.799] [info]  wowInstallation {
+  id: '651813ae-08e0-4f08-a3fb-6acfc17010ed',
+  clientType: 0,
+  defaultAddonChannelType: 0,
+  defaultAutoUpdate: false,
+  label: '{defaultName}',
+  displayName: 'World of Warcraft',
+  location: '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe',
+  selected: false
+}
+[2024-03-06 07:59:09.801] [info]  Setting wow installations: 3
+[2024-03-06 07:59:14.955] [info]  Setting wow installations: 3
+[2024-03-06 07:59:15.376] [info]  Removed 0 NonRescan folders: 
+[2024-03-06 07:59:15.377] [info]  Kept 0 NonRescan addons: 
+[2024-03-06 07:59:18.474] [info]  [POST] https://hub.wowup.io/addons/fingerprint 200 1439ms
+[2024-03-06 07:59:24.705] [info]  [GET] https://api.tukui.org/v1/addons 200 5449ms
+[2024-03-06 07:59:24.722] [warn]  Invalid provider id CurseV2|15564
+[2024-03-06 07:59:24.722] [warn]  [
+  { id: '5108', providerName: 'WowInterface' },
+  { id: '15564', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.723] [warn]  Invalid provider id Wago|Mj6jLxGR
+[2024-03-06 07:59:24.723] [warn]  [
+  { id: '5108', providerName: 'WowInterface' },
+  { id: '15564', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.723] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.724] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.724] [warn]  Invalid provider id Wago|xZKxZENk
+[2024-03-06 07:59:24.724] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.725] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.725] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.725] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.725] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.726] [warn]  Invalid provider id Wago|xZKxZENk
+[2024-03-06 07:59:24.726] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.726] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.726] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.727] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.727] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.727] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.728] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.728] [warn]  Invalid provider id CurseV2|314994
+[2024-03-06 07:59:24.728] [warn]  [
+  { id: '24904', providerName: 'WowInterface' },
+  { id: '314994', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.729] [warn]  Invalid provider id CurseV2|3358
+[2024-03-06 07:59:24.729] [warn]  [
+  { id: '8814', providerName: 'WowInterface' },
+  { id: '3358', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.729] [warn]  Invalid provider id Wago|qv633o6b
+[2024-03-06 07:59:24.729] [warn]  [
+  { id: '8814', providerName: 'WowInterface' },
+  { id: '3358', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.730] [warn]  Invalid provider id CurseV2|61284
+[2024-03-06 07:59:24.730] [warn]  [ { id: '61284', providerName: 'Curse' } ]
+[2024-03-06 07:59:24.731] [warn]  Invalid provider id Wago|25NRDlK3
+[2024-03-06 07:59:24.731] [warn]  [ { id: '61284', providerName: 'Curse' } ]
+[2024-03-06 07:59:24.731] [warn]  Invalid provider id Wago|7nGvv0Gx
+[2024-03-06 07:59:24.731] [warn]  []
+[2024-03-06 07:59:24.731] [warn]  Invalid provider id Wago|WL6Jk2Kv
+[2024-03-06 07:59:24.732] [warn]  []
+[2024-03-06 07:59:24.732] [warn]  Invalid provider id Wago|VBNB9MGx
+[2024-03-06 07:59:24.732] [warn]  []
+[2024-03-06 07:59:24.732] [warn]  Invalid provider id Wago|Rn6VJW6d
+[2024-03-06 07:59:24.732] [warn]  []
+[2024-03-06 07:59:24.733] [warn]  Invalid provider id Wago|ZQ6abgKW
+[2024-03-06 07:59:24.733] [warn]  []
+[2024-03-06 07:59:24.733] [warn]  Invalid provider id CurseV2|298842
+[2024-03-06 07:59:24.734] [warn]  [ { id: '298842', providerName: 'Curse' } ]
+[2024-03-06 07:59:24.734] [warn]  Invalid provider id CurseV2|94855
+[2024-03-06 07:59:24.734] [warn]  [ { id: '94855', providerName: 'Curse' } ]
+[2024-03-06 07:59:24.734] [warn]  Invalid provider id Wago|R4N2k46L
+[2024-03-06 07:59:24.734] [warn]  []
+[2024-03-06 07:59:24.735] [warn]  Invalid provider id CurseV2|65387
+[2024-03-06 07:59:24.735] [warn]  [
+  { id: '24910', providerName: 'WowInterface' },
+  { id: '65387', providerName: 'Curse' }
+]
+[2024-03-06 07:59:24.735] [warn]  Invalid provider id Wago|VBNBxKx5
+[2024-03-06 07:59:24.735] [warn]  [
+  { id: '24910', providerName: 'WowInterface' },
+  { id: '65387', providerName: 'Curse' }
+]
+[2024-03-06 07:59:27.847] [info]  [AddonUpdate] Curse 3358 Deadly Boss Mods (DBM) 'DBM-10.2.23' -> 'DBM-10.2.28'
+[2024-03-06 07:59:27.848] [info]  [AddonUpdate] Curse 314994 Deadly Boss Mods (DBM) - Dungeons & Events 'r119' -> 'r121'
+[2024-03-06 07:59:27.850] [info]  [AddonUpdate] Curse 61284 Details! Damage Meter 'Details.20240215.12325.155' -> 'Details.20240219.12330.155'
+[2024-03-06 07:59:27.852] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5160/205/DBM-10.2.28.zip' -> '/home/colby/.config/WowUpCf/downloads/ABqOuboIzI8UqIOolENkX-deadly-boss-mods-dbm.zip'
+[2024-03-06 07:59:27.854] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5160/178/DBM-Party-Dragonflight-r121.zip' -> '/home/colby/.config/WowUpCf/downloads/qIGWORCGqVp8G4MVOOvJK-deadly-boss-mods-dbm-dungeons-events.zip'
+[2024-03-06 07:59:27.854] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5120/901/Details-Details.20240219.12330.155.zip' -> '/home/colby/.config/WowUpCf/downloads/qsYrjAdw5Mxq6iaLaynMV-details-damage-meter.zip'
+[2024-03-06 07:59:27.986] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5160/178/DBM-Party-Dragonflight-r121.zip
+[2024-03-06 07:59:27.988] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5160/205/DBM-10.2.28.zip
+[2024-03-06 07:59:27.989] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5120/901/Details-Details.20240219.12330.155.zip
+[2024-03-06 07:59:28.117] [debug] Write: [0] 15893
+[2024-03-06 07:59:28.377] [debug] Write: [5] 375514
+[2024-03-06 07:59:28.415] [debug] Write: [10] 736035
+[2024-03-06 07:59:28.454] [debug] Write: [5] 260892
+[2024-03-06 07:59:28.462] [debug] Write: [10] 506454
+[2024-03-06 07:59:28.468] [debug] Write: [15] 768238
+[2024-03-06 07:59:28.471] [debug] Write: [5] 63618
+[2024-03-06 07:59:28.475] [debug] Write: [10] 129082
+[2024-03-06 07:59:28.488] [debug] Write: [15] 1096483
+[2024-03-06 07:59:28.494] [debug] Write: [20] 1029806
+[2024-03-06 07:59:28.502] [debug] Write: [25] 1291590
+[2024-03-06 07:59:28.520] [debug] Write: [30] 1520353
+[2024-03-06 07:59:28.527] [debug] Write: [35] 1782209
+[2024-03-06 07:59:28.533] [debug] Write: [55] 684247
+[2024-03-06 07:59:28.543] [debug] Write: [20] 1489573
+[2024-03-06 07:59:28.550] [debug] Write: [40] 2031382
+[2024-03-06 07:59:28.555] [debug] Write: [45] 2293310
+[2024-03-06 07:59:28.563] [debug] Write: [85] 1048576
+[2024-03-06 07:59:28.569] [debug] Write: [25] 1865406
+[2024-03-06 07:59:28.584] [debug] Write: [55] 2801250
+[2024-03-06 07:59:28.591] [debug] Write: [60] 3046740
+[2024-03-06 07:59:28.598] [debug] Write: [100] 1222055
+[2024-03-06 07:59:28.599] [debug] Write: [30] 2215685
+[2024-03-06 07:59:28.605] [debug] Write: [65] 3293094
+[2024-03-06 07:59:28.617] [debug] Write: [75] 3800944
+[2024-03-06 07:59:28.622] [debug] Write: [80] 4079238
+[2024-03-06 07:59:28.632] [debug] Write: [35] 2619241
+[2024-03-06 07:59:28.634] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight-bak'
+[2024-03-06 07:59:28.636] [debug] Write: [85] 4341580
+[2024-03-06 07:59:28.637] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight-bak'
+[2024-03-06 07:59:28.639] [debug] Write: [90] 4587070
+[2024-03-06 07:59:28.648] [debug] Write: [40] 2946921
+[2024-03-06 07:59:28.655] [debug] Write: [45] 3307261
+[2024-03-06 07:59:28.662] [debug] Write: [100] 5058840
+[2024-03-06 07:59:28.668] [debug] Write: [50] 3664304
+[2024-03-06 07:59:28.671] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails-bak'
+[2024-03-06 07:59:28.673] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails-bak'
+[2024-03-06 07:59:28.677] [debug] Write: [55] 4040764
+[2024-03-06 07:59:28.684] [debug] Write: [60] 4433677
+[2024-03-06 07:59:28.690] [debug] Write: [65] 4777477
+[2024-03-06 07:59:28.698] [debug] Write: [70] 5170375
+[2024-03-06 07:59:28.704] [debug] Write: [75] 5514349
+[2024-03-06 07:59:28.711] [debug] Write: [80] 5855893
+[2024-03-06 07:59:28.719] [debug] Write: [85] 6212315
+[2024-03-06 07:59:28.724] [debug] Write: [90] 6602482
+[2024-03-06 07:59:28.732] [debug] Write: [95] 6965871
+[2024-03-06 07:59:28.739] [debug] Write: [100] 7304061
+[2024-03-06 07:59:28.747] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight-bak'
+[2024-03-06 07:59:28.749] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight-bak'
+[2024-03-06 07:59:28.947] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight
+[2024-03-06 07:59:28.950] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes-bak'
+[2024-03-06 07:59:28.950] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes-bak'
+[2024-03-06 07:59:28.972] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes
+[2024-03-06 07:59:28.973] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails
+[2024-03-06 07:59:28.974] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers-bak'
+[2024-03-06 07:59:28.975] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers-bak'
+[2024-03-06 07:59:28.976] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat-bak'
+[2024-03-06 07:59:28.977] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat-bak'
+[2024-03-06 07:59:29.000] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight
+[2024-03-06 07:59:29.004] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm-bak'
+[2024-03-06 07:59:29.004] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm-bak'
+[2024-03-06 07:59:29.101] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers
+[2024-03-06 07:59:29.103] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents-bak'
+[2024-03-06 07:59:29.104] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents-bak'
+[2024-03-06 07:59:29.179] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat
+[2024-03-06 07:59:29.183] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard-bak'
+[2024-03-06 07:59:29.183] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard-bak'
+[2024-03-06 07:59:29.337] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard
+[2024-03-06 07:59:29.341] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents
+[2024-03-06 07:59:29.343] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage-bak'
+[2024-03-06 07:59:29.344] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage-bak'
+[2024-03-06 07:59:29.347] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles-bak'
+[2024-03-06 07:59:29.348] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles-bak'
+[2024-03-06 07:59:29.355] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage
+[2024-03-06 07:59:29.357] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck-bak'
+[2024-03-06 07:59:29.358] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck-bak'
+[2024-03-06 07:59:29.373] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles
+[2024-03-06 07:59:29.375] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core-bak'
+[2024-03-06 07:59:29.376] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core-bak'
+[2024-03-06 07:59:29.578] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm
+[2024-03-06 07:59:29.584] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla-bak'
+[2024-03-06 07:59:29.584] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla-bak'
+[2024-03-06 07:59:29.621] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck
+[2024-03-06 07:59:29.625] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer-bak'
+[2024-03-06 07:59:29.625] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer-bak'
+[2024-03-06 07:59:29.874] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer
+[2024-03-06 07:59:29.876] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2-bak'
+[2024-03-06 07:59:29.876] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2-bak'
+[2024-03-06 07:59:29.884] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2
+[2024-03-06 07:59:29.886] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details-bak'
+[2024-03-06 07:59:29.886] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details-bak'
+[2024-03-06 07:59:30.430] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla
+[2024-03-06 07:59:30.438] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion-bak'
+[2024-03-06 07:59:30.438] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion-bak'
+[2024-03-06 07:59:30.562] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion
+[2024-03-06 07:59:30.568] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP-bak'
+[2024-03-06 07:59:30.569] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP-bak'
+[2024-03-06 07:59:30.574] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core
+[2024-03-06 07:59:30.580] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI-bak'
+[2024-03-06 07:59:30.581] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI-bak'
+[2024-03-06 07:59:30.592] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP
+[2024-03-06 07:59:30.594] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD-bak'
+[2024-03-06 07:59:30.595] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD-bak'
+[2024-03-06 07:59:30.615] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI
+[2024-03-06 07:59:30.618] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers-bak'
+[2024-03-06 07:59:30.618] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers-bak'
+[2024-03-06 07:59:30.620] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers
+[2024-03-06 07:59:30.622] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM-bak'
+[2024-03-06 07:59:30.622] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM-bak'
+[2024-03-06 07:59:30.629] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD
+[2024-03-06 07:59:30.632] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK-bak'
+[2024-03-06 07:59:30.632] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK-bak'
+[2024-03-06 07:59:30.684] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK
+[2024-03-06 07:59:30.688] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC-bak'
+[2024-03-06 07:59:30.689] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC-bak'
+[2024-03-06 07:59:30.721] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC
+[2024-03-06 07:59:30.724] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA-bak'
+[2024-03-06 07:59:30.725] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA-bak'
+[2024-03-06 07:59:30.749] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA
+[2024-03-06 07:59:30.754] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands-bak'
+[2024-03-06 07:59:30.755] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands-bak'
+[2024-03-06 07:59:30.773] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands
+[2024-03-06 07:59:30.776] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/qIGWORCGqVp8G4MVOOvJK-deadly-boss-mods-dbm-dungeons-events.zip
+[2024-03-06 07:59:31.046] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details
+[2024-03-06 07:59:31.059] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/qsYrjAdw5Mxq6iaLaynMV-details-damage-meter.zip
+[2024-03-06 07:59:31.178] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM
+[2024-03-06 07:59:31.187] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/ABqOuboIzI8UqIOolENkX-deadly-boss-mods-dbm.zip
+[2024-03-06 07:59:31.628] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-BC' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC'
+[2024-03-06 07:59:31.656] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-BfA' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA'
+[2024-03-06 07:59:31.679] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-Cataclysm' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm'
+[2024-03-06 07:59:31.708] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-Dragonflight' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight'
+[2024-03-06 07:59:31.737] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-Legion' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion'
+[2024-03-06 07:59:31.768] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-MoP' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP'
+[2024-03-06 07:59:31.786] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-Shadowlands' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands'
+[2024-03-06 07:59:31.810] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-Vanilla' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla'
+[2024-03-06 07:59:31.884] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-WoD' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD'
+[2024-03-06 07:59:31.888] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details'
+[2024-03-06 07:59:31.902] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-Party-WotLK' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK'
+[2024-03-06 07:59:31.920] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy/DBM-WorldEvents' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents'
+[2024-03-06 07:59:31.930] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight-bak
+[2024-03-06 07:59:31.930] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Dragonflight-bak
+[2024-03-06 07:59:31.930] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm-bak
+[2024-03-06 07:59:31.931] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Cataclysm-bak
+[2024-03-06 07:59:31.931] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla-bak
+[2024-03-06 07:59:31.931] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Vanilla-bak
+[2024-03-06 07:59:31.931] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion-bak
+[2024-03-06 07:59:31.931] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Legion-bak
+[2024-03-06 07:59:31.932] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP-bak
+[2024-03-06 07:59:31.932] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-MoP-bak
+[2024-03-06 07:59:31.932] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD-bak
+[2024-03-06 07:59:31.932] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WoD-bak
+[2024-03-06 07:59:31.932] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK-bak
+[2024-03-06 07:59:31.932] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-WotLK-bak
+[2024-03-06 07:59:31.933] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC-bak
+[2024-03-06 07:59:31.933] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BC-bak
+[2024-03-06 07:59:31.933] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA-bak
+[2024-03-06 07:59:31.933] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-BfA-bak
+[2024-03-06 07:59:31.933] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands-bak
+[2024-03-06 07:59:31.933] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Party-Shadowlands-bak
+[2024-03-06 07:59:31.956] [info]  [AddedDirs] Curse 314994 Deadly Boss Mods (DBM) - Dungeons & Events DBM-WorldEvents
+[2024-03-06 07:59:31.959] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-Affixes' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes'
+[2024-03-06 07:59:31.962] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-Brawlers' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers'
+[2024-03-06 07:59:31.968] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-Core' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core'
+[2024-03-06 07:59:32.027] [info]  [AddonUpdateComplete] Curse 314994 Deadly Boss Mods (DBM) - Dungeons & Events r121
+[2024-03-06 07:59:32.069] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/1RNvpHMSmVFIn_r8PNCmy
+[2024-03-06 07:59:32.088] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/qIGWORCGqVp8G4MVOOvJK-deadly-boss-mods-dbm-dungeons-events.zip
+[2024-03-06 07:59:32.089] [info]  Install complete Deadly Boss Mods (DBM) - Dungeons & Events
+[2024-03-06 07:59:32.090] [info]  [AddonUpdate] Curse 298842 Leatrix Maps (Dragonflight) '10.2.17' -> '10.2.18'
+[2024-03-06 07:59:32.091] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/812/Leatrix_Maps-10.2.18.zip' -> '/home/colby/.config/WowUpCf/downloads/YFn8j61A3BEM0_vewIyHE-leatrix-maps-dragonflight.zip'
+[2024-03-06 07:59:32.107] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-DragonIsles' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles'
+[2024-03-06 07:59:32.110] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-GUI' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI'
+[2024-03-06 07:59:32.120] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-Raids-Dragonflight' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight'
+[2024-03-06 07:59:32.122] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_Compare2' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2'
+[2024-03-06 07:59:32.123] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_DataStorage' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage'
+[2024-03-06 07:59:32.125] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_EncounterDetails' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails'
+[2024-03-06 07:59:32.129] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-StatusBarTimers' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers'
+[2024-03-06 07:59:32.130] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_RaidCheck' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck'
+[2024-03-06 07:59:32.131] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD/DBM-VPVEM' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM'
+[2024-03-06 07:59:32.135] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_Streamer' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer'
+[2024-03-06 07:59:32.141] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_TinyThreat' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat'
+[2024-03-06 07:59:32.145] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA/Details_Vanguard' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard'
+[2024-03-06 07:59:32.150] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails-bak
+[2024-03-06 07:59:32.150] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_EncounterDetails-bak
+[2024-03-06 07:59:32.150] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat-bak
+[2024-03-06 07:59:32.151] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_TinyThreat-bak
+[2024-03-06 07:59:32.151] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard-bak
+[2024-03-06 07:59:32.151] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Vanguard-bak
+[2024-03-06 07:59:32.151] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage-bak
+[2024-03-06 07:59:32.151] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_DataStorage-bak
+[2024-03-06 07:59:32.151] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck-bak
+[2024-03-06 07:59:32.152] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_RaidCheck-bak
+[2024-03-06 07:59:32.152] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer-bak
+[2024-03-06 07:59:32.152] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Streamer-bak
+[2024-03-06 07:59:32.152] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2-bak
+[2024-03-06 07:59:32.152] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details_Compare2-bak
+[2024-03-06 07:59:32.152] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details-bak
+[2024-03-06 07:59:32.153] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Details-bak
+[2024-03-06 07:59:32.166] [info]  [AddedDirs] Curse 61284 Details! Damage Meter 
+[2024-03-06 07:59:32.203] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/812/Leatrix_Maps-10.2.18.zip
+[2024-03-06 07:59:32.207] [info]  [AddonUpdateComplete] Curse 61284 Details! Damage Meter Details.20240219.12330.155
+[2024-03-06 07:59:32.244] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/-MCn4XkupNbAO_xQApRFA
+[2024-03-06 07:59:32.258] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/qsYrjAdw5Mxq6iaLaynMV-details-damage-meter.zip
+[2024-03-06 07:59:32.260] [info]  Install complete Details! Damage Meter
+[2024-03-06 07:59:32.261] [info]  [AddonUpdate] Curse 94855 Leatrix Plus (Dragonflight) '10.2.17' -> '10.2.18'
+[2024-03-06 07:59:32.262] [info]  [DownloadFile] 'https://edge.forgecdn.net/files/5161/815/Leatrix_Plus-10.2.18.zip' -> '/home/colby/.config/WowUpCf/downloads/wjySU-4xXxVtwlpLclsGz-leatrix-plus-dragonflight.zip'
+[2024-03-06 07:59:32.271] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight-bak
+[2024-03-06 07:59:32.272] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight-bak
+[2024-03-06 07:59:32.272] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes-bak
+[2024-03-06 07:59:32.272] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes-bak
+[2024-03-06 07:59:32.272] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers-bak
+[2024-03-06 07:59:32.272] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers-bak
+[2024-03-06 07:59:32.273] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents-bak
+[2024-03-06 07:59:32.273] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-WorldEvents-bak
+[2024-03-06 07:59:32.273] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles-bak
+[2024-03-06 07:59:32.273] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles-bak
+[2024-03-06 07:59:32.273] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core-bak
+[2024-03-06 07:59:32.273] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core-bak
+[2024-03-06 07:59:32.274] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI-bak
+[2024-03-06 07:59:32.274] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI-bak
+[2024-03-06 07:59:32.274] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers-bak
+[2024-03-06 07:59:32.274] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers-bak
+[2024-03-06 07:59:32.274] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM-bak
+[2024-03-06 07:59:32.274] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM-bak
+[2024-03-06 07:59:32.289] [info]  [AddedDirs] Curse 3358 Deadly Boss Mods (DBM) 
+[2024-03-06 07:59:32.290] [info]  [DiffDirs] Curse 3358 Deadly Boss Mods (DBM) DBM-WorldEvents
+[2024-03-06 07:59:32.327] [info]  [AddonUpdateComplete] Curse 3358 Deadly Boss Mods (DBM) DBM-10.2.28
+[2024-03-06 07:59:32.357] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/2U7DXtWoou6Yt1n6LSVlD
+[2024-03-06 07:59:32.375] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/ABqOuboIzI8UqIOolENkX-deadly-boss-mods-dbm.zip
+[2024-03-06 07:59:32.378] [info]  Install complete Deadly Boss Mods (DBM)
+[2024-03-06 07:59:32.397] [info]  [download] caught redirect 302 https://mediafilez.forgecdn.net/files/5161/815/Leatrix_Plus-10.2.18.zip
+[2024-03-06 07:59:32.412] [debug] Write: [50] 69583
+[2024-03-06 07:59:32.421] [debug] Write: [60] 83826
+[2024-03-06 07:59:32.425] [debug] Write: [70] 98084
+[2024-03-06 07:59:32.439] [debug] Write: [95] 132353
+[2024-03-06 07:59:32.443] [debug] Write: [100] 138589
+[2024-03-06 07:59:32.448] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:59:32.452] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps-bak'
+[2024-03-06 07:59:32.455] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps
+[2024-03-06 07:59:32.457] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/YFn8j61A3BEM0_vewIyHE-leatrix-maps-dragonflight.zip
+[2024-03-06 07:59:32.479] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/OqP1CdvTmTjATN3TW-aOw/Leatrix_Maps' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps'
+[2024-03-06 07:59:32.483] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:59:32.483] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Maps-bak
+[2024-03-06 07:59:32.485] [info]  [AddedDirs] Curse 298842 Leatrix Maps (Dragonflight) 
+[2024-03-06 07:59:32.506] [info]  [AddonUpdateComplete] Curse 298842 Leatrix Maps (Dragonflight) 10.2.18
+[2024-03-06 07:59:32.523] [debug] Write: [5] 25271
+[2024-03-06 07:59:32.530] [debug] Write: [10] 46664
+[2024-03-06 07:59:32.533] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/OqP1CdvTmTjATN3TW-aOw
+[2024-03-06 07:59:32.537] [debug] Write: [15] 68048
+[2024-03-06 07:59:32.539] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/YFn8j61A3BEM0_vewIyHE-leatrix-maps-dragonflight.zip
+[2024-03-06 07:59:32.544] [info]  Install complete Leatrix Maps (Dragonflight)
+[2024-03-06 07:59:32.545] [debug] Write: [20] 87984
+[2024-03-06 07:59:32.555] [debug] Write: [25] 110766
+[2024-03-06 07:59:32.640] [debug] Write: [30] 130680
+[2024-03-06 07:59:32.648] [debug] Write: [35] 153497
+[2024-03-06 07:59:32.667] [debug] Write: [45] 197674
+[2024-03-06 07:59:32.671] [debug] Write: [50] 219070
+[2024-03-06 07:59:32.679] [debug] Write: [55] 239026
+[2024-03-06 07:59:32.763] [debug] Write: [60] 261832
+[2024-03-06 07:59:32.769] [debug] Write: [65] 284661
+[2024-03-06 07:59:32.776] [debug] Write: [70] 304624
+[2024-03-06 07:59:32.784] [debug] Write: [75] 327436
+[2024-03-06 07:59:32.790] [debug] Write: [80] 347416
+[2024-03-06 07:59:32.796] [debug] Write: [85] 373096
+[2024-03-06 07:59:32.806] [debug] Write: [95] 413063
+[2024-03-06 07:59:32.881] [debug] Write: [100] 434220
+[2024-03-06 07:59:32.888] [info]  [CreateDirectory] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:59:32.892] [info]  [FileCopy] '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus-bak'
+[2024-03-06 07:59:32.897] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus
+[2024-03-06 07:59:32.898] [info]  unzipFile /home/colby/.config/WowUpCf/downloads/wjySU-4xXxVtwlpLclsGz-leatrix-plus-dragonflight.zip
+[2024-03-06 07:59:32.921] [info]  [FileCopy] '/home/colby/.config/WowUpCf/downloads/6fO-SIbuG7PRGHCJgwJKx/Leatrix_Plus' -> '/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus'
+[2024-03-06 07:59:32.926] [info]  [RemovePath]: /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:59:32.927] [info]  [FileRemove] /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/Leatrix_Plus-bak
+[2024-03-06 07:59:32.928] [info]  [AddedDirs] Curse 94855 Leatrix Plus (Dragonflight) 
+[2024-03-06 07:59:32.954] [info]  [AddonUpdateComplete] Curse 94855 Leatrix Plus (Dragonflight) 10.2.18
+[2024-03-06 07:59:32.995] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/6fO-SIbuG7PRGHCJgwJKx
+[2024-03-06 07:59:33.002] [info]  [FileRemove] /home/colby/.config/WowUpCf/downloads/wjySU-4xXxVtwlpLclsGz-leatrix-plus-dragonflight.zip
+[2024-03-06 07:59:33.006] [info]  Install complete Leatrix Plus (Dragonflight)
+[2024-03-06 07:59:35.470] [info]  window config saved
+[2024-03-06 07:59:37.231] [info]  window config saved
