@@ -67,6 +67,7 @@ output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
     bindsym $mod+n exec pcmanfm 
     bindsym $mod+b exec brave
     bindsym $mod+g exec lutris 
+    bindsym $mod+Shift+s exec grim
     # Kill focused window
     bindsym $mod+x kill
 
